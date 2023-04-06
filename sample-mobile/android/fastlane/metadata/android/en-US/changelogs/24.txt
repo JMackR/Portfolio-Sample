@@ -1,0 +1,1 @@
+Fixes a bug where logging in takes users to onboarding even if they have already completed the flow.

@@ -1,0 +1,16 @@
+{
+  "name": "@sample/themes",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo hello themes",
+    "clean": "rimraf --no-glob ./coverage ./tsconfig.tsbuildinfo",
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx --cache --cache-location ../../.cache/eslint/themes.eslintcache",
+    "typecheck": "tsc --project ./tsconfig.json --noEmit",
+    "test-unit": "jest --config jest.config.js",
+    "fix-all-files": "eslint . --ext .ts,.tsx,.js,.jsx --fix"
+  },
+  "devDependencies": {
+    "@sample/eslint-config-bases": "1.0.0"
+  }
+}

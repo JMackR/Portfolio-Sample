@@ -1,0 +1,27 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react",
+    "jsxFactory": "",
+    "jsxFragmentFactory": ""
+  },
+  "exclude": [
+    "**/*.stories.tsx",
+    "**/*.stories.mdx",
+    ".storybook/**",
+    "@auto/quote-client/**",
+    "@sample/analytics/**",
+    "@sample/assets/**",
+    "@sample/basic-controls/**",
+    "@sample/constants/**",
+    "@sample/layout-controls/**",
+    "@sample/network/**",
+    "@sample/providers/**",
+    "@sample/themes/**",
+    "@sample/utilities/**",
+    "@sample/widgets/**"
+  ]
+}

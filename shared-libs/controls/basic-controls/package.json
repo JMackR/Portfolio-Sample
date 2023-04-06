@@ -1,0 +1,25 @@
+{
+  "name": "@sample/basic-controls",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "clean": "rimraf --no-glob ./coverage ./tsconfig.tsbuildinfo",
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx --cache --cache-location ../../.cache/eslint/basic-controls.eslintcache",
+    "typecheck": "tsc --project ./tsconfig.json --noEmit",
+    "test-unit": "jest --config jest.config.js",
+    "fix-all-files": "eslint . --ext .ts,.tsx,.js,.jsx --fix"
+  },
+  "dependencies": {
+    "lottie-react": "^2.3.1",
+    "@sample/themes": "1.0.0",
+    "@sample/utilities": "1.0.0",
+    "@sample/assets": "1.0.0"
+  },
+  "devDependencies": {
+    "@sample/eslint-config-bases": "1.0.0",
+    "react": "^18.2.0",
+    "react-router-dom": "^6.7.0",
+    "jest-canvas-mock": "2.4.0"
+  }
+}

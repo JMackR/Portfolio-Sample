@@ -1,0 +1,186 @@
+schema
+  @link(url: "https://specs.apollo.dev/link/v1.0")
+  @link(url: "https://specs.apollo.dev/join/v0.2", for: EXECUTION)
+{
+  query: Query
+  mutation: Mutation
+}
+
+directive @join__field(graph: join__Graph!, requires: join__FieldSet, provides: join__FieldSet, type: String, external: Boolean, override: String, usedOverridden: Boolean) repeatable on FIELD_DEFINITION | INPUT_FIELD_DEFINITION
+
+directive @join__graph(name: String!, url: String!) on ENUM_VALUE
+
+directive @join__implements(graph: join__Graph!, interface: String!) repeatable on OBJECT | INTERFACE
+
+directive @join__type(graph: join__Graph!, key: join__FieldSet, extension: Boolean! = false, resolvable: Boolean! = true) repeatable on OBJECT | INTERFACE | UNION | ENUM | INPUT_OBJECT | SCALAR
+
+directive @link(url: String, as: String, for: link__Purpose, import: [link__Import]) repeatable on SCHEMA
+
+type Charge
+  @join__type(graph: CUSTOMERS)
+{
+  amount: Int
+  created: Int
+  description: String
+  confirmationNumber: String
+  last4: String
+  brand: String
+}
+
+input CreateInput
+  @join__type(graph: CUSTOMERS)
+{
+  customer: Customer
+}
+
+type CreateResponse
+  @join__type(graph: CUSTOMERS, key: "id")
+{
+  id: ID!
+
+  """Similar to HTTP status code, represents the status of the mutation"""
+  code: Int!
+
+  """Indicates whether the mutation was successful"""
+  success: Boolean!
+
+  """Human-readable message for the UI"""
+  message: String!
+
+  """The Stripe Customer ID"""
+  customerID: String
+}
+
+input Customer
+  @join__type(graph: CUSTOMERS)
+{
+  """The Stripe Customer ID"""
+  customerID: ID
+
+  """The scheduled Payment amount"""
+  policyID: String
+
+  """First name of Customer"""
+  firstName: String
+
+  """Last name of Customer"""
+  lastName: String
+
+  """Suffix of Customer"""
+  suffix: String
+
+  """email of customer"""
+  email: String
+
+  """Phone number of Record"""
+  phone: String
+
+  """Adress of Record - Street Line 1"""
+  street1: String
+
+  """Adress of Record - Street Line 2"""
+  street2: String
+
+  """Adress of Record - State"""
+  state: String
+
+  """Adress of Record - City"""
+  city: String
+
+  """Adress of Record - Zip Code"""
+  zipCode: String
+}
+
+type CustomerPaymentHistoryResponse
+  @join__type(graph: CUSTOMERS)
+{
+  code: Int!
+
+  """Indicates whether the mutation was successful"""
+  success: Boolean!
+
+  """Human-readable message for the UI"""
+  message: String!
+
+  """The Stripe Customer ID"""
+  paymentHistory: [Charge]
+}
+
+type CustomerPaymentMethodsResponse
+  @join__type(graph: CUSTOMERS)
+{
+  code: Int!
+
+  """Indicates whether the mutation was successful"""
+  success: Boolean!
+
+  """Human-readable message for the UI"""
+  message: String!
+
+  """The Stripe Customer ID"""
+  paymentMethods: [PaymentMethod]
+}
+
+scalar join__FieldSet
+
+enum join__Graph {
+  CUSTOMERS @join__graph(name: "customers", url: "http://localhost:4001/graphql")
+}
+
+scalar link__Import
+
+enum link__Purpose {
+  """
+  `SECURITY` features provide metadata necessary to securely resolve fields.
+  """
+  SECURITY
+
+  """
+  `EXECUTION` features provide metadata necessary for operation execution.
+  """
+  EXECUTION
+}
+
+type Mutation
+  @join__type(graph: CUSTOMERS)
+{
+  createCustomer(createInput: CreateInput): CreateResponse
+  updateDefaultPaymentMethod(updateDefaultInput: UpdateDefaultInput): UpdateDefaultResponse
+}
+
+type PaymentMethod
+  @join__type(graph: CUSTOMERS)
+{
+  paymentMethodID: ID!
+  brand: String!
+  defaultPaymentMethod: Boolean
+  last4: String!
+  exp_month: Int!
+  exp_year: Int!
+}
+
+type Query
+  @join__type(graph: CUSTOMERS)
+{
+  getCustomerPaymentMethods(customerID: String): CustomerPaymentMethodsResponse
+  getCustomerPaymentHistory(customerID: String): CustomerPaymentHistoryResponse
+}
+
+input UpdateDefaultInput
+  @join__type(graph: CUSTOMERS)
+{
+  customerID: String
+  paymentMethodID: String
+}
+
+type UpdateDefaultResponse
+  @join__type(graph: CUSTOMERS)
+{
+  code: Int!
+
+  """Indicates whether the mutation was successful"""
+  success: Boolean!
+
+  """Human-readable message for the UI"""
+  message: String!
+}

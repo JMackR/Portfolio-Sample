@@ -1,0 +1,24 @@
+# [START gae_quickstart_yaml]
+service: development
+runtime: python39
+
+handlers:
+  # Serve all static files with url ending with a file extension
+  - url: /(.*\..+)$
+    static_files: dist/\1
+    upload: dist/(.*\..+)$
+  # Catch all handler to index.html
+  - url: /.*
+    static_files: dist/index.html
+    upload: dist/index.html
+
+# env_variables:
+# REMIX_TOKEN: "12345654321"
+# [END gae_quickstart_yaml]
+automatic_scaling:
+  # limit the max instances
+  max_instances: 8
+  min_instances: 0
+# warm-up requests
+inbound_services:
+  - warmup

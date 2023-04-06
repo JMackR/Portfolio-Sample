@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text Snapshot Tests color is primary1 text creates properly 1`] = `
+.text-textStyle {
+  color: #696969;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: ABCSocial-Bold, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+<div
+  className="text-textStyle"
+>
+  Test Text
+</div>
+`;
+
+exports[`Text Snapshot Tests number of lines is passed in text creates properly 1`] = `
+.text-textStyle {
+  color: #696969;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: ABCSocial-Bold, sans-serif;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+<div
+  className="text-textStyle"
+>
+  Test Text
+</div>
+`;
+
+exports[`Text Snapshot Tests text creates properly 1`] = `
+.text-textStyle {
+  color: #696969;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: ABCSocial-Bold, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+<div
+  className="text-textStyle"
+>
+  Test Text
+</div>
+`;

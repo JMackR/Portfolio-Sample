@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "402107325287",
+    "firebase_url": "https://samplehouse-uat-311c7-default-rtdb.firebaseio.com",
+    "project_id": "samplehouse-uat-311c7",
+    "storage_bucket": "samplehouse-uat-311c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402107325287:android:b71f8dbbc03560b050adc2",
+        "android_client_info": {
+          "package_name": "com.ride.sample.uat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402107325287-a8bkn188r8gso55upmie51avj4snbape.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJvBNXJqmec4kRegeAKCT6ip7FHXqfDYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402107325287-a8bkn188r8gso55upmie51avj4snbape.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "402107325287-2fa0955lr43lf4ra9vbc5e73qjir50c6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ride.sample"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

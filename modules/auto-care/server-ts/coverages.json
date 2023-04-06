@@ -1,0 +1,81 @@
+{
+  "policy-coverages": [
+    {
+      "name": "bi",
+      "title": "policy.bodily-injury",
+      "icon": "BodilyInjuryIcon",
+      "description": "policy.bodily-injury-description",
+      "subContentSuffix": "policy.per-person/policy.per-accident"
+    },
+    {
+      "name": "pd",
+      "title": "policy.property-damage",
+      "icon": "PropertyDamageIcon",
+      "description": "policy.property-damage-description",
+      "subContentSuffix": "policy.per-accident"
+    },
+    {
+      "name": "pip",
+      "title": "policy.personal-injury",
+      "icon": "PersonalInjuryIcon",
+      "description": "policy.personal-injury-description",
+      "subContentSuffix": "policy.per-person"
+    },
+    {
+      "name": "umUimbi",
+      "title": "policy.uninsured-bodily-injury",
+      "icon": "UninsuredBodilyIcon",
+      "description": "policy.uninsured-bodily-injury-description",
+      "subContentSuffix": "policy.per-person/policy.per-accident"
+    },
+    {
+      "name": "umUimpd",
+      "title": "policy.uninsured-property-damage",
+      "icon": "UninsuredPropertyIcon",
+      "description": "policy.uninsured-property-damage-description",
+      "subContentSuffix": "policy.per-accident"
+    }
+  ],
+  "vehicle-coverages": [
+    {
+      "name": "comp",
+      "title": "policy.comprehensive-coverage",
+      "icon": "ComprehensiveCoverageIcon",
+      "description": "policy.comprehensive-coverage-description",
+      "subContentSuffix": "policy.deductible"
+    },
+    {
+      "name": "coll",
+      "title": "policy.collision-coverage",
+      "icon": "CollisionCoverageIcon",
+      "description": "policy.collision-coverage-description",
+      "subContentSuffix": "policy.deductible"
+    }
+  ],
+  "coverage-amount-matrix": {
+    "bucketCombo": {
+      "30/60": "30000/60000",
+      "50/100": "50000/100000",
+      "100/300": "100000/300000",
+      "250/500": "250000/500000"
+    },
+
+    "bucketAccident": {
+      "25": "25000",
+      "50": "50000",
+      "100": "100000"
+    },
+
+    "bucketDeductible": {
+      "100": "100",
+      "250": "250",
+      "500": "500",
+      "1000": "1000"
+    },
+    "bucketPerson": {
+      "2500": "2500",
+      "5000": "5000",
+      "10000": "10000"
+    }
+  }
+}

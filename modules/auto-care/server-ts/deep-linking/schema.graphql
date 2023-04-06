@@ -1,0 +1,18 @@
+input UserInviteInput {
+	userKey: Int!
+	inviteLink: String
+	contactKey: Int!
+	userJoined: Boolean
+	phoneNumber: String
+}
+
+extend type Mutation {
+	inviteUser(userInviteInput: UserInviteInput): UserInviteResponse
+}
+
+type UserInviteResponse implements MutationResponse {
+	code: String!
+	success: Boolean!
+	message: String!
+	errors: [FieldError]
+}

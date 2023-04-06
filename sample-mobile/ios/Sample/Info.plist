@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.sentiance.backgroundtask.step_counter</string>
+		<string>com.sentiance.backgroundtask.tilerefresh</string>
+		<string>com.sentiance.backgroundtask.task_processing</string>
+	</array>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Sample</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.5</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>firebase auth</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.886839587796-3tb1khs6fvd9q8l0odf0okdmcil7cakn</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>get.ridewithsample</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>get.ridewithsample</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>https</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>https</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>primary link</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>ridewithsample</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>uat link</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>ridewithsample.page.link</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>uat auth</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.402107325287-2fa0955lr43lf4ra9vbc5e73qjir50c6</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>2</string>
+	<key>FirebaseDynamicLinksCustomDomains</key>
+	<array>
+		<string>https://get.ridewithsample.com</string>
+		<string>https://ridewithsample.com</string>
+		<string>https://ridewithsample.page.link</string>
+	</array>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>MBXAccessToken</key>
+	<string>pk.eyJ1IjoianJ0cmFpbmVyMjAwMCIsImEiOiJjbDl1ODVoZGwyMnZjM3duczQ3MjZxYnV1In0.5jRrUjnBtWDWqB0MGKnd3A</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSTemporaryExceptionMinimumTLSVersion</key>
+				<string>TLSv1.1</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>This app accesses your photos so you can add them to the app</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This app accesses your camera so you can add pics to the app</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Your location helps us find the best spots near you. We will never sell or share your location data with anyone ✋</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Your location helps us find the best spots near you. We will never sell or share your location data with anyone ✋</string>
+	<key>NSLocationTemporaryUsageDescriptionDictionary</key>
+	<dict>
+		<key>full-access</key>
+		<string>Sample needs access to your precise location temporarily</string>
+	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Your location helps us find the best spots near you. We will never sell or share your location data with anyone ✋</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>To record a voice note in your claim, give Sample access to your microphone.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Your location will never be shared with any 3rd parties</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>This allows you to add a photo to your claim.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app accesses your photos so you can add them to the app</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>ABCSocialCondensed-Black.otf</string>
+		<string>ABCSocial-Bold.otf</string>
+		<string>ABCSocial-Regular.otf</string>
+		<string>fieldwork-geo-bold-webfont.ttf</string>
+		<string>fieldwork-geo-bold.ttf</string>
+		<string>fieldwork-geo-demibold.otf</string>
+		<string>fieldwork-geo-regular.otf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>location</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen.storyboard</string>
+	<key>UIMainStoryboardFile</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIStatusBarStyle</key>
+	<string></string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

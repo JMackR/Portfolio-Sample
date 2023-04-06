@@ -1,0 +1,279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text Entry Snapshot Tests Text Color primary renders properly 1`] = `
+.inputContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer:focus-within .inputTransform {
+  top: 0;
+  left: 14px;
+  font-size: 10px;
+  transform: translateY(0px) scale(0.8);
+  transform-origin: 0px 100%;
+}
+
+.inputLabel {
+  position: absolute;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transform-origin: 0px 100%;
+  transition: all 0.15s ease-out 0s;
+  top: 50%;
+  left: 14px;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+.textentry {
+  text-align: undefined;
+  color: primary1;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  resize: none;
+  min-width: 0px;
+  min-size: 0px;
+  text-vertical-align: top;
+  height: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 30px);
+  border-radius: 4px;
+  border: none;
+  padding: 20px 16px 20px 14px;
+  outline: none;
+  box-shadow: none;
+}
+
+.textentry::placeholder {
+  color: #AAAAAF;
+}
+
+.textentry:disabled {
+  color: #AAAAAF;
+  background: #F0F0F0;
+}
+
+<div
+  className="inputContainer"
+>
+  <input
+    className="textentry"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    value=""
+  />
+  <label
+    className="inputLabel inputTransform"
+  >
+    <div
+      className="text-textStyle"
+    />
+  </label>
+</div>
+`;
+
+exports[`Text Entry Snapshot Tests Text Entry has placeholder renders properly 1`] = `
+.inputContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer:focus-within .inputTransform {
+  top: 0;
+  left: 14px;
+  font-size: 10px;
+  transform: translateY(0px) scale(0.8);
+  transform-origin: 0px 100%;
+}
+
+.textentry {
+  text-align: undefined;
+  color: #23231E;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  resize: none;
+  min-width: 0px;
+  min-size: 0px;
+  text-vertical-align: top;
+  height: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 30px);
+  border-radius: 4px;
+  border: none;
+  padding: 20px 16px 20px 14px;
+  outline: none;
+  box-shadow: none;
+}
+
+.textentry::placeholder {
+  color: #AAAAAF;
+}
+
+.textentry:disabled {
+  color: #AAAAAF;
+  background: #F0F0F0;
+}
+
+.inputLabel {
+  position: absolute;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transform-origin: 0px 100%;
+  transition: all 0.15s ease-out 0s;
+  top: 50%;
+  left: 14px;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+<div
+  className="inputContainer"
+>
+  <input
+    className="textentry"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    value=""
+  />
+  <label
+    className="inputLabel inputTransform"
+  >
+    <div
+      className="text-textStyle"
+    >
+      Test Hint
+    </div>
+  </label>
+</div>
+`;
+
+exports[`Text Entry Snapshot Tests Text Entry is disabled renders properly 1`] = `
+.inputContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer:focus-within .inputTransform {
+  top: 0;
+  left: 14px;
+  font-size: 10px;
+  transform: translateY(0px) scale(0.8);
+  transform-origin: 0px 100%;
+}
+
+.textentry {
+  text-align: undefined;
+  color: #23231E;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  resize: none;
+  min-width: 0px;
+  min-size: 0px;
+  text-vertical-align: top;
+  height: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 30px);
+  border-radius: 4px;
+  border: none;
+  padding: 20px 16px 20px 14px;
+  outline: none;
+  box-shadow: none;
+}
+
+.textentry::placeholder {
+  color: #AAAAAF;
+}
+
+.textentry:disabled {
+  color: #AAAAAF;
+  background: #F0F0F0;
+}
+
+.inputLabel {
+  position: absolute;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transform-origin: 0px 100%;
+  transition: all 0.15s ease-out 0s;
+  top: 50%;
+  left: 14px;
+}
+
+.text-textStyle {
+  color: #AAAAAF;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+<div
+  className="inputContainer"
+>
+  <input
+    className="textentry"
+    disabled={true}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    value=""
+  />
+  <label
+    className="inputLabel inputTransform"
+  >
+    <div
+      className="text-textStyle"
+    />
+  </label>
+</div>
+`;

@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stripe Text Entry Snapshot Tests should render the CardNumberElement by default 1`] = `
+.margin {
+  margin: undefined;
+  margin-left: undefined;
+  margin-right: undefined;
+  margin-top: 2px;
+  margin-bottom: undefined;
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  max-width: undefined;
+  width: undefined;
+}
+
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: flex-start;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+<div
+  className="margin"
+>
+  <div
+    className="flex"
+  >
+    <div>
+      CardNumberElement
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Stripe Text Entry Snapshot Tests stripeInputType is card-cvc should render the CardCvcElement 1`] = `
+.margin {
+  margin: undefined;
+  margin-left: undefined;
+  margin-right: undefined;
+  margin-top: 2px;
+  margin-bottom: undefined;
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  max-width: undefined;
+  width: undefined;
+}
+
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: flex-start;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+<div
+  className="margin"
+>
+  <div
+    className="flex"
+  >
+    <div>
+      CardCvcElement
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Stripe Text Entry Snapshot Tests stripeInputType is card-exp should render the CardExpiryElement 1`] = `
+.margin {
+  margin: undefined;
+  margin-left: undefined;
+  margin-right: undefined;
+  margin-top: 2px;
+  margin-bottom: undefined;
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  max-width: undefined;
+  width: undefined;
+}
+
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: flex-start;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+<div
+  className="margin"
+>
+  <div
+    className="flex"
+  >
+    <div>
+      CardExpiryElement
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Stripe Text Entry Snapshot Tests stripeInputType is card-number should render the CardNumberElement 1`] = `
+.margin {
+  margin: undefined;
+  margin-left: undefined;
+  margin-right: undefined;
+  margin-top: 2px;
+  margin-bottom: undefined;
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  max-width: undefined;
+  width: undefined;
+}
+
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: flex-start;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+<div
+  className="margin"
+>
+  <div
+    className="flex"
+  >
+    <div>
+      CardNumberElement
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Stripe Text Entry Snapshot Tests text/hint color and textType are passed in should render the CardCvcElement 1`] = `
+.margin {
+  margin: undefined;
+  margin-left: undefined;
+  margin-right: undefined;
+  margin-top: 2px;
+  margin-bottom: undefined;
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  max-width: undefined;
+  width: undefined;
+}
+
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: flex-start;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+<div
+  className="margin"
+>
+  <div
+    className="flex"
+  >
+    <div>
+      CardNumberElement
+    </div>
+  </div>
+</div>
+`;

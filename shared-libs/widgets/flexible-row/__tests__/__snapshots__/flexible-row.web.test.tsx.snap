@@ -1,0 +1,1625 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Flexible Row snapshot Tests has icon tint FlexibleRow creates properly 1`] = `
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  min-height: 50px;
+  height: undefined;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  user-select: none;
+  cursor: undefined;
+  align-items: center;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+  border: none;
+  width: 100%;
+}
+
+.container:hover {
+  background-color: #E6E6E6;
+}
+
+.container:focus {
+  background-color: #E6E6E6;
+}
+
+.mainContentColumn {
+  align-self: center;
+  flex-direction: column;
+}
+
+.rightActionColumn {
+  margin-left: 8px;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: ABCSocial-Bold, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+.leftIconColumn {
+  margin-right: 8px;
+  align-self: center;
+  align-content: center;
+}
+
+.leftIcon {
+  display: inline-block;
+  height: 24px;
+  vertical-align: middle;
+  width: 24px;
+}
+
+<button
+  className="container"
+>
+  <div
+    className="leftIconColumn"
+  >
+    <span
+      className="leftIcon"
+    >
+      <div>
+        SVG
+      </div>
+    </span>
+  </div>
+  <div
+    className="mainContentColumn"
+  >
+    <span>
+      <div
+        className="text-textStyle"
+      >
+        text1
+      </div>
+    </span>
+  </div>
+  <div
+    className="rightActionColumn"
+  />
+</button>
+`;
+
+exports[`Flexible Row snapshot Tests has left action FlexibleRow creates properly 1`] = `
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  min-height: 50px;
+  height: undefined;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  user-select: none;
+  cursor: undefined;
+  align-items: center;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+  border: none;
+  width: 100%;
+}
+
+.container:hover {
+  background-color: #E6E6E6;
+}
+
+.container:focus {
+  background-color: #E6E6E6;
+}
+
+.mainContentColumn {
+  align-self: center;
+  flex-direction: column;
+}
+
+.rightActionColumn {
+  margin-left: 8px;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: ABCSocial-Bold, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+.leftActionColumn {
+  margin-right: 8px;
+  align-self: center;
+}
+
+.rightActionSwitch {
+  cursor: pointer;
+  height: 30px;
+}
+
+<button
+  className="container"
+>
+  <div
+    className="leftActionColumn"
+  >
+    <div
+      className="rightActionSwitch"
+    >
+      <label>
+        <div
+          style={
+            Object {
+              "MozTransition": "opacity 0.25s",
+              "MozUserSelect": "none",
+              "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+              "WebkitTransition": "opacity 0.25s",
+              "WebkitUserSelect": "none",
+              "borderRadius": 15,
+              "direction": "ltr",
+              "display": "inline-block",
+              "msUserSelect": "none",
+              "opacity": 1,
+              "position": "relative",
+              "textAlign": "left",
+              "touchAction": "none",
+              "transition": "opacity 0.25s",
+              "userSelect": "none",
+            }
+          }
+        >
+          <div
+            className="react-switch-bg"
+            onClick={[Function]}
+            onMouseDown={[Function]}
+            style={
+              Object {
+                "MozTransition": "background 0.25s",
+                "WebkitTransition": "background 0.25s",
+                "background": "#23231E",
+                "borderRadius": 15,
+                "cursor": "pointer",
+                "height": 30,
+                "margin": 0,
+                "position": "relative",
+                "transition": "background 0.25s",
+                "width": 57,
+              }
+            }
+          />
+          <div
+            className="react-switch-handle"
+            onClick={[Function]}
+            onMouseDown={[Function]}
+            onTouchCancel={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            style={
+              Object {
+                "MozTransition": "background-color 0.25s, transform 0.25s, box-shadow 0.15s",
+                "WebkitTransition": "background-color 0.25s, transform 0.25s, box-shadow 0.15s",
+                "background": "#FFFFFF",
+                "border": 0,
+                "borderRadius": "50%",
+                "boxShadow": null,
+                "cursor": "pointer",
+                "display": "inline-block",
+                "height": 24,
+                "outline": 0,
+                "position": "absolute",
+                "top": 3,
+                "transform": "translateX(30px)",
+                "transition": "background-color 0.25s, transform 0.25s, box-shadow 0.15s",
+                "width": 24,
+              }
+            }
+          />
+          <input
+            aria-checked={true}
+            checked={true}
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyUp={[Function]}
+            role="switch"
+            style={
+              Object {
+                "border": 0,
+                "clip": "rect(0 0 0 0)",
+                "height": 1,
+                "margin": -1,
+                "overflow": "hidden",
+                "padding": 0,
+                "position": "absolute",
+                "width": 1,
+              }
+            }
+            type="checkbox"
+          />
+        </div>
+      </label>
+    </div>
+  </div>
+  <div
+    className="mainContentColumn"
+  >
+    <span>
+      <div
+        className="text-textStyle"
+      >
+        text1
+      </div>
+    </span>
+  </div>
+  <div
+    className="rightActionColumn"
+  />
+</button>
+`;
+
+exports[`Flexible Row snapshot Tests has left icon FlexibleRow creates properly 1`] = `
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  min-height: 50px;
+  height: undefined;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  user-select: none;
+  cursor: undefined;
+  align-items: center;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+  border: none;
+  width: 100%;
+}
+
+.container:hover {
+  background-color: #E6E6E6;
+}
+
+.container:focus {
+  background-color: #E6E6E6;
+}
+
+.mainContentColumn {
+  align-self: center;
+  flex-direction: column;
+}
+
+.rightActionColumn {
+  margin-left: 8px;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: ABCSocial-Bold, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+.leftIconColumn {
+  margin-right: 8px;
+  align-self: center;
+  align-content: center;
+}
+
+.leftIcon {
+  display: inline-block;
+  height: 24px;
+  vertical-align: middle;
+  width: 24px;
+}
+
+<button
+  className="container"
+>
+  <div
+    className="leftIconColumn"
+  >
+    <span
+      className="leftIcon"
+    >
+      <div>
+        SVG
+      </div>
+    </span>
+  </div>
+  <div
+    className="mainContentColumn"
+  >
+    <span>
+      <div
+        className="text-textStyle"
+      >
+        text1
+      </div>
+    </span>
+  </div>
+  <div
+    className="rightActionColumn"
+  />
+</button>
+`;
+
+exports[`Flexible Row snapshot Tests has main content FlexibleRow has main content FlexibleRow creates properly 1`] = `
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  min-height: 50px;
+  height: undefined;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  user-select: none;
+  cursor: undefined;
+  align-items: center;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+  border: none;
+  width: 100%;
+}
+
+.container:hover {
+  background-color: #E6E6E6;
+}
+
+.container:focus {
+  background-color: #E6E6E6;
+}
+
+.mainContentColumn {
+  align-self: center;
+  flex-direction: column;
+}
+
+.rightActionColumn {
+  margin-left: 8px;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: ABCSocial-Bold, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+<button
+  className="container"
+>
+  <div
+    className="mainContentColumn"
+  >
+    <span>
+      <div
+        className="text-textStyle"
+      >
+        text1
+      </div>
+    </span>
+  </div>
+  <div
+    className="rightActionColumn"
+  />
+</button>
+`;
+
+exports[`Flexible Row snapshot Tests has main content main content as FlexibleMainContentRow has help tool tip FlexibleRow creates properly 1`] = `
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  min-height: 50px;
+  height: undefined;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  user-select: none;
+  cursor: undefined;
+  align-items: center;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+  border: none;
+  width: 100%;
+}
+
+.container:hover {
+  background-color: #E6E6E6;
+}
+
+.container:focus {
+  background-color: #E6E6E6;
+}
+
+.mainContentColumn {
+  align-self: center;
+  flex-direction: column;
+}
+
+.rightActionColumn {
+  margin-left: 8px;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: ABCSocial-Bold, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+.mainContentRow {
+  height: 20px;
+  display: flex;
+}
+
+.mainContentRowLeftText {
+  text-align: center;
+  vertical-align: center;
+  align-self: center;
+}
+
+.mainContentRowSpacer {
+  flex-grow: 1;
+}
+
+.mainContentRowLeftHelpIcon {
+  margin-left: 4px;
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+  align-self: center;
+}
+
+<button
+  className="container"
+>
+  <div
+    className="mainContentColumn"
+  >
+    <div
+      className="mainContentRow"
+    >
+      <div
+        className="mainContentRowLeftText"
+      >
+        <div
+          className="text-textStyle"
+        >
+          text1
+        </div>
+      </div>
+      <div
+        className="mainContentRowLeftHelpIcon"
+      >
+        <div>
+          SVG
+        </div>
+      </div>
+      <div
+        className="mainContentRowSpacer"
+      />
+    </div>
+  </div>
+  <div
+    className="rightActionColumn"
+  />
+</button>
+`;
+
+exports[`Flexible Row snapshot Tests has main content main content as FlexibleMainContentRow has main text FlexibleRow creates properly 1`] = `
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  min-height: 50px;
+  height: undefined;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  user-select: none;
+  cursor: undefined;
+  align-items: center;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+  border: none;
+  width: 100%;
+}
+
+.container:hover {
+  background-color: #E6E6E6;
+}
+
+.container:focus {
+  background-color: #E6E6E6;
+}
+
+.mainContentColumn {
+  align-self: center;
+  flex-direction: column;
+}
+
+.rightActionColumn {
+  margin-left: 8px;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: ABCSocial-Bold, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+.mainContentRow {
+  height: 20px;
+  display: flex;
+}
+
+.mainContentRowLeftText {
+  text-align: center;
+  vertical-align: center;
+  align-self: center;
+}
+
+.mainContentRowSpacer {
+  flex-grow: 1;
+}
+
+<button
+  className="container"
+>
+  <div
+    className="mainContentColumn"
+  >
+    <div
+      className="mainContentRow"
+    >
+      <div
+        className="mainContentRowLeftText"
+      >
+        <div
+          className="text-textStyle"
+        >
+          text1
+        </div>
+      </div>
+      <div
+        className="mainContentRowSpacer"
+      />
+    </div>
+  </div>
+  <div
+    className="rightActionColumn"
+  />
+</button>
+`;
+
+exports[`Flexible Row snapshot Tests has main content main content as FlexibleMainContentRow has right Text  FlexibleRow creates properly 1`] = `
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  min-height: 50px;
+  height: undefined;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  user-select: none;
+  cursor: undefined;
+  align-items: center;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+  border: none;
+  width: 100%;
+}
+
+.container:hover {
+  background-color: #E6E6E6;
+}
+
+.container:focus {
+  background-color: #E6E6E6;
+}
+
+.mainContentColumn {
+  align-self: center;
+  flex-direction: column;
+}
+
+.rightActionColumn {
+  margin-left: 8px;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: ABCSocial-Bold, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+.mainContentRow {
+  height: 20px;
+  display: flex;
+}
+
+.mainContentRowLeftText {
+  text-align: center;
+  vertical-align: center;
+  align-self: center;
+}
+
+.mainContentRowSpacer {
+  flex-grow: 1;
+}
+
+.mainContentRowRightText {
+  align-self: center;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+<button
+  className="container"
+>
+  <div
+    className="mainContentColumn"
+  >
+    <div
+      className="mainContentRow"
+    >
+      <div
+        className="mainContentRowLeftText"
+      >
+        <div
+          className="text-textStyle"
+        >
+          text1
+        </div>
+      </div>
+      <div
+        className="mainContentRowSpacer"
+      />
+      <div
+        className="mainContentRowRightText"
+      >
+        <div
+          className="text-textStyle"
+        >
+          right text
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="rightActionColumn"
+  />
+</button>
+`;
+
+exports[`Flexible Row snapshot Tests has main content text type FlexibleRow creates properly 1`] = `
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  min-height: 50px;
+  height: undefined;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  user-select: none;
+  cursor: undefined;
+  align-items: center;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+  border: none;
+  width: 100%;
+}
+
+.container:hover {
+  background-color: #E6E6E6;
+}
+
+.container:focus {
+  background-color: #E6E6E6;
+}
+
+.mainContentColumn {
+  align-self: center;
+  flex-direction: column;
+}
+
+.rightActionColumn {
+  margin-left: 8px;
+}
+
+.leftIconColumn {
+  margin-right: 8px;
+  align-self: center;
+  align-content: center;
+}
+
+.leftIcon {
+  display: inline-block;
+  height: 24px;
+  vertical-align: middle;
+  width: 24px;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: ABCSocial-Bold, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+<button
+  className="container"
+>
+  <div
+    className="leftIconColumn"
+  >
+    <span
+      className="leftIcon"
+    >
+      <div>
+        SVG
+      </div>
+    </span>
+  </div>
+  <div
+    className="mainContentColumn"
+  >
+    <span>
+      <div
+        className="text-textStyle"
+      >
+        text1
+      </div>
+    </span>
+  </div>
+  <div
+    className="rightActionColumn"
+  />
+</button>
+`;
+
+exports[`Flexible Row snapshot Tests has main content tint FlexibleRow creates properly 1`] = `
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  min-height: 50px;
+  height: undefined;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  user-select: none;
+  cursor: undefined;
+  align-items: center;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+  border: none;
+  width: 100%;
+}
+
+.container:hover {
+  background-color: #E6E6E6;
+}
+
+.container:focus {
+  background-color: #E6E6E6;
+}
+
+.mainContentColumn {
+  align-self: center;
+  flex-direction: column;
+}
+
+.rightActionColumn {
+  margin-left: 8px;
+}
+
+.leftIconColumn {
+  margin-right: 8px;
+  align-self: center;
+  align-content: center;
+}
+
+.leftIcon {
+  display: inline-block;
+  height: 24px;
+  vertical-align: middle;
+  width: 24px;
+}
+
+.text-textStyle {
+  color: undefined;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: ABCSocial-Bold, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+<button
+  className="container"
+>
+  <div
+    className="leftIconColumn"
+  >
+    <span
+      className="leftIcon"
+    >
+      <div>
+        SVG
+      </div>
+    </span>
+  </div>
+  <div
+    className="mainContentColumn"
+  >
+    <span>
+      <div
+        className="text-textStyle"
+      >
+        text1
+      </div>
+    </span>
+  </div>
+  <div
+    className="rightActionColumn"
+  />
+</button>
+`;
+
+exports[`Flexible Row snapshot Tests has right Notification FlexibleRow creates properly 1`] = `
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  min-height: 50px;
+  height: undefined;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  user-select: none;
+  cursor: undefined;
+  align-items: center;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+  border: none;
+  width: 100%;
+}
+
+.container:hover {
+  background-color: #E6E6E6;
+}
+
+.container:focus {
+  background-color: #E6E6E6;
+}
+
+.mainContentColumn {
+  align-self: center;
+  flex-direction: column;
+}
+
+.rightActionColumn {
+  margin-left: 8px;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: ABCSocial-Bold, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+.rightIconNotificationText {
+  display: inline-flex;
+  align-self: flex-start;
+}
+
+.text-textStyle {
+  color: #F0142D;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: ABCSocial-Bold, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+<button
+  className="container"
+>
+  <div
+    className="mainContentColumn"
+  >
+    <span>
+      <div
+        className="text-textStyle"
+      >
+        text1
+      </div>
+    </span>
+  </div>
+  <div
+    className="rightIconNotificationText"
+  >
+    <div
+      className="text-textStyle"
+    >
+      right text
+    </div>
+  </div>
+  <div
+    className="rightActionColumn"
+  />
+</button>
+`;
+
+exports[`Flexible Row snapshot Tests has right action FlexibleRow creates properly 1`] = `
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  min-height: 50px;
+  height: undefined;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  user-select: none;
+  cursor: undefined;
+  align-items: center;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+  border: none;
+  width: 100%;
+}
+
+.container:hover {
+  background-color: #E6E6E6;
+}
+
+.container:focus {
+  background-color: #E6E6E6;
+}
+
+.mainContentColumn {
+  align-self: center;
+  flex-direction: column;
+}
+
+.rightActionColumn {
+  margin-left: 8px;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: ABCSocial-Bold, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+.rightActionSwitch {
+  cursor: pointer;
+  height: 30px;
+}
+
+<button
+  className="container"
+>
+  <div
+    className="mainContentColumn"
+  >
+    <span>
+      <div
+        className="text-textStyle"
+      >
+        text1
+      </div>
+    </span>
+  </div>
+  <div
+    className="rightActionColumn"
+  >
+    <div
+      className="rightActionSwitch"
+    >
+      <label>
+        <div
+          style={
+            Object {
+              "MozTransition": "opacity 0.25s",
+              "MozUserSelect": "none",
+              "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+              "WebkitTransition": "opacity 0.25s",
+              "WebkitUserSelect": "none",
+              "borderRadius": 15,
+              "direction": "ltr",
+              "display": "inline-block",
+              "msUserSelect": "none",
+              "opacity": 1,
+              "position": "relative",
+              "textAlign": "left",
+              "touchAction": "none",
+              "transition": "opacity 0.25s",
+              "userSelect": "none",
+            }
+          }
+        >
+          <div
+            className="react-switch-bg"
+            onClick={[Function]}
+            onMouseDown={[Function]}
+            style={
+              Object {
+                "MozTransition": "background 0.25s",
+                "WebkitTransition": "background 0.25s",
+                "background": "#23231E",
+                "borderRadius": 15,
+                "cursor": "pointer",
+                "height": 30,
+                "margin": 0,
+                "position": "relative",
+                "transition": "background 0.25s",
+                "width": 57,
+              }
+            }
+          />
+          <div
+            className="react-switch-handle"
+            onClick={[Function]}
+            onMouseDown={[Function]}
+            onTouchCancel={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            style={
+              Object {
+                "MozTransition": "background-color 0.25s, transform 0.25s, box-shadow 0.15s",
+                "WebkitTransition": "background-color 0.25s, transform 0.25s, box-shadow 0.15s",
+                "background": "#FFFFFF",
+                "border": 0,
+                "borderRadius": "50%",
+                "boxShadow": null,
+                "cursor": "pointer",
+                "display": "inline-block",
+                "height": 24,
+                "outline": 0,
+                "position": "absolute",
+                "top": 3,
+                "transform": "translateX(30px)",
+                "transition": "background-color 0.25s, transform 0.25s, box-shadow 0.15s",
+                "width": 24,
+              }
+            }
+          />
+          <input
+            aria-checked={true}
+            checked={true}
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyUp={[Function]}
+            role="switch"
+            style={
+              Object {
+                "border": 0,
+                "clip": "rect(0 0 0 0)",
+                "height": 1,
+                "margin": -1,
+                "overflow": "hidden",
+                "padding": 0,
+                "position": "absolute",
+                "width": 1,
+              }
+            }
+            type="checkbox"
+          />
+        </div>
+      </label>
+    </div>
+  </div>
+</button>
+`;
+
+exports[`Flexible Row snapshot Tests has right icon FlexibleRow creates properly 1`] = `
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  min-height: 50px;
+  height: undefined;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  user-select: none;
+  cursor: undefined;
+  align-items: center;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+  border: none;
+  width: 100%;
+}
+
+.container:hover {
+  background-color: #E6E6E6;
+}
+
+.container:focus {
+  background-color: #E6E6E6;
+}
+
+.mainContentColumn {
+  align-self: center;
+  flex-direction: column;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: ABCSocial-Bold, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+.rightIconColumn {
+  display: inline-flex;
+  padding-left: 8px;
+}
+
+<button
+  className="container"
+>
+  <div
+    className="mainContentColumn"
+  >
+    <span>
+      <div
+        className="text-textStyle"
+      >
+        text1
+      </div>
+    </span>
+  </div>
+  <div
+    className="rightIconColumn"
+  >
+    <div>
+      SVG
+    </div>
+  </div>
+</button>
+`;
+
+exports[`Flexible Row snapshot Tests has sub content has sub content as FlexibleSubContentRow has clickable sub text FlexibleRow creates properly 1`] = `
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  min-height: 50px;
+  height: undefined;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  user-select: none;
+  cursor: undefined;
+  align-items: center;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+  border: none;
+  width: 100%;
+}
+
+.container:hover {
+  background-color: #E6E6E6;
+}
+
+.container:focus {
+  background-color: #E6E6E6;
+}
+
+.mainContentColumn {
+  align-self: center;
+  flex-direction: column;
+}
+
+.rightActionColumn {
+  margin-left: 8px;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: ABCSocial-Bold, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+.subtextContainer {
+  margin-top: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-textStyle {
+  color: #AAAAAF;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: ABCSocial-Bold, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+<button
+  className="container"
+>
+  <div
+    className="mainContentColumn"
+  >
+    <span>
+      <div
+        className="text-textStyle"
+      >
+        text1
+      </div>
+    </span>
+    <div
+      className="subtextContainer"
+    >
+      <div
+        className="text-textStyle"
+      >
+        text2
+      </div>
+      <div
+        className="text-textStyle"
+        onClick={[MockFunction]}
+      >
+        text3
+      </div>
+    </div>
+  </div>
+  <div
+    className="rightActionColumn"
+  />
+</button>
+`;
+
+exports[`Flexible Row snapshot Tests has sub content has sub content as FlexibleSubContentRow has sub text FlexibleRow creates properly 1`] = `
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  min-height: 50px;
+  height: undefined;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  user-select: none;
+  cursor: undefined;
+  align-items: center;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+  border: none;
+  width: 100%;
+}
+
+.container:hover {
+  background-color: #E6E6E6;
+}
+
+.container:focus {
+  background-color: #E6E6E6;
+}
+
+.mainContentColumn {
+  align-self: center;
+  flex-direction: column;
+}
+
+.rightActionColumn {
+  margin-left: 8px;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: ABCSocial-Bold, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+.subtextContainer {
+  margin-top: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-textStyle {
+  color: #AAAAAF;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+<button
+  className="container"
+>
+  <div
+    className="mainContentColumn"
+  >
+    <span>
+      <div
+        className="text-textStyle"
+      >
+        text1
+      </div>
+    </span>
+    <div
+      className="subtextContainer"
+    >
+      <div
+        className="text-textStyle"
+      >
+        text2
+      </div>
+    </div>
+  </div>
+  <div
+    className="rightActionColumn"
+  />
+</button>
+`;
+
+exports[`Flexible Row snapshot Tests has sub content has sub content as string FlexibleRow creates properly 1`] = `
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  min-height: 50px;
+  height: undefined;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  user-select: none;
+  cursor: undefined;
+  align-items: center;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+  border: none;
+  width: 100%;
+}
+
+.container:hover {
+  background-color: #E6E6E6;
+}
+
+.container:focus {
+  background-color: #E6E6E6;
+}
+
+.mainContentColumn {
+  align-self: center;
+  flex-direction: column;
+}
+
+.rightActionColumn {
+  margin-left: 8px;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: ABCSocial-Bold, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+.subtextContainer {
+  margin-top: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-textStyle {
+  color: #AAAAAF;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+<button
+  className="container"
+>
+  <div
+    className="mainContentColumn"
+  >
+    <span>
+      <div
+        className="text-textStyle"
+      >
+        text1
+      </div>
+    </span>
+    <div
+      className="subtextContainer"
+    >
+      <div
+        className="text-textStyle"
+      >
+        subContent
+      </div>
+    </div>
+  </div>
+  <div
+    className="rightActionColumn"
+  />
+</button>
+`;

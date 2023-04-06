@@ -1,0 +1,71 @@
+index 29c9075..c7e2f7e 100644
+--- a/node_modules/react-native-permissions/ios/LocationAlways/RNPermissionHandlerLocationAlways.m
++++ b/node_modules/react-native-permissions/ios/LocationAlways/RNPermissionHandlerLocationAlways.m
+@@ -35,7 +35,13 @@ - (void)checkWithResolver:(void (^ _Nonnull)(RNPermissionStatus))resolve
+       return resolve(RNPermissionStatusNotDetermined);
+     case kCLAuthorizationStatusRestricted:
+       return resolve(RNPermissionStatusRestricted);
+-    case kCLAuthorizationStatusAuthorizedWhenInUse:
++    case kCLAuthorizationStatusAuthorizedWhenInUse: {
++        BOOL requestedBefore = [RNPermissions isFlaggedAsRequested:[[self class] handlerUniqueId]];
++        if (requestedBefore) {
++            return resolve(RNPermissionStatusDenied);
++        }
++        return resolve(RNPermissionStatusNotDetermined);
++    }
+     case kCLAuthorizationStatusDenied:
+       return resolve(RNPermissionStatusDenied);
+     case kCLAuthorizationStatusAuthorizedAlways:
+@@ -48,7 +54,11 @@ - (void)requestWithResolver:(void (^ _Nonnull)(RNPermissionStatus))resolve
+   if (![CLLocationManager locationServicesEnabled]) {
+     return resolve(RNPermissionStatusNotAvailable);
+   }
+-  if ([CLLocationManager authorizationStatus] != kCLAuthorizationStatusNotDetermined) {
++
++  CLAuthorizationStatus authorizationStatus = [CLLocationManager authorizationStatus];
++  BOOL requestedBefore = [RNPermissions isFlaggedAsRequested:[[self class] handlerUniqueId]];
++
++  if (authorizationStatus != kCLAuthorizationStatusNotDetermined && (authorizationStatus == kCLAuthorizationStatusAuthorizedWhenInUse && requestedBefore)) {
+     return [self checkWithResolver:resolve rejecter:reject];
+   }
+ 
+@@ -57,14 +67,35 @@ - (void)requestWithResolver:(void (^ _Nonnull)(RNPermissionStatus))resolve
+ 
+   _locationManager = [CLLocationManager new];
+   [_locationManager setDelegate:self];
++
++  [[NSNotificationCenter defaultCenter] addObserver:self
++                                        selector:@selector(handleAppStateDidChange:)
++                                        name:UIApplicationDidBecomeActiveNotification
++                                        object:nil];
++    
+   [_locationManager requestAlwaysAuthorization];
++  [RNPermissions flagAsRequested:[[self class] handlerUniqueId]];
+ }
+ 
+-- (void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status {
+-  if (status != kCLAuthorizationStatusNotDetermined) {
+-    [_locationManager setDelegate:nil];
++- (void)updatePermission {
++    if(_resolve == nil || _reject == nil) return;
+     [self checkWithResolver:_resolve rejecter:_reject];
+-  }
++    [_locationManager setDelegate:nil];
++    _resolve = nil;
++    _reject = nil;
++    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIApplicationDidBecomeActiveNotification object:nil];
++}
++
++- (void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status {
++    if (status != kCLAuthorizationStatusNotDetermined && status != kCLAuthorizationStatusAuthorizedWhenInUse) {
++        [self updatePermission];
++    }
++}
++
++- (void)handleAppStateDidChange:(NSNotification *)notification {
++    if([notification.name isEqualToString:UIApplicationDidBecomeActiveNotification]) {
++        [self updatePermission];
++    }
+ }
+ 
+ @end

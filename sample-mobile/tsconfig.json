@@ -1,0 +1,15 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "target": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "esnext",
+    "jsx": "react",
+    "incremental": true,
+    "resolveJsonModule": true,
+    "moduleSuffixes": [".ios", ".android", ".native", ""]
+  },
+  "exclude": ["**/node_modules", "**/.*/", "dist"],
+  "include": ["**/*.js", "**/*.ts", "**/*.tsx"]
+}

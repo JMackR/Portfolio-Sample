@@ -1,0 +1,33 @@
+# Entity
+type TypeName {
+  typeName: String!
+}
+
+extend type Query {
+  queryName(varName: Int!): TypeName
+}
+
+extend type Mutation {
+  #   mutationName(varName: Int!): TypeName
+  createCustomAgentToken(phoneNumber: String!): CustomTokenResponse
+  createCustomToken(uuid: String!, phoneNumber: String!, driversLicense: String!, policyID: String!): CustomTokenResponse
+}
+
+extend type Subscription {
+  subscriptionName: TypeName
+}
+
+type CustomTokenResponse implements MutationResponse {
+  success: Boolean!
+  code: String!
+  message: String!
+  errors: [FieldError]
+}
+
+type CustomAgentTokenResponse implements MutationResponse {
+  token: String!
+  success: Boolean!
+  code: String!
+  message: String!
+  errors: [FieldError]
+}

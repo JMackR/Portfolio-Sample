@@ -1,0 +1,522 @@
+enum OwnerShip {
+  "Lease Option"
+  LEASE
+  "Finance Option"
+  FINANCE
+  "Own Option"
+  OWN
+}
+
+enum Usage {
+  "Remote Option,  the Driver of the vehicle works remotely from home"
+  REMOTE
+  "Once Option, the Driver drives to work 1 x per week "
+  ONCE
+  "Twice Option, the Driver drives to work 2 X per week"
+  TWICE
+  "Thrice Option, the Driver drives to work 3 or more times per week"
+  THRICE
+}
+
+enum YearlyMiles {
+  "1 - 5,000"
+  ONE
+  "5,001 - 7,500"
+  TWO
+  "7,501 - 10,000"
+  THREE
+  "10,001 or more"
+  FOUR
+}
+extend type Mutation {
+  setCustomClaims(uid: String!, properties: UserPropertiesInput): ClaimRes
+  updateUserInfo(docID: String, userInput: UserInput): UserInfoResult
+  createWannabe(input: WannabeInput!): CreateResponse
+  sendSMS(input: SMSInput!): SMSResponse
+  createDynamicLink(input: DynamicLinkInput!): DynamicLinkResponse
+  createEmailCollection(emailInput: CreateEmailTemplateInput!): CreateEmailTemplateResponse
+  # createCustomToken(uuid: String!, phoneNumber: String!): CustomTokenResponse
+}
+extend type Query {
+  getEasterEggs(type: String!, token: String!, name: String!): EggResponse!
+  getUserByField(field1: String!, value1: String!): GetUserResponse
+  getUserByDocId(docID: String!): GetUserResponse
+  verifyPhoneNumber(phoneNumber: String!): PhoneLookUpResponse
+  verifyDriversLicense(driverLicense: String!, policyID: String!, phoneNumber: String!): LicenseVerifyResponse
+}
+type LicenseVerifyResponse {
+  uid: String
+  success: Boolean
+}
+type PhoneLookUpResponse {
+  success: Boolean
+  policyID: String
+}
+type ClaimRes implements MutationResponse {
+  success: Boolean!
+  code: String!
+  message: String!
+  errors: [FieldError]
+}
+
+input UserPropertiesInput {
+  email: String
+  phoneNumber: String
+  #emailVerified: Boolean
+  #password: String
+  role: String
+  policyID: String
+  name: String
+  disabled: Boolean
+}
+
+"Core User properties needed for get quote"
+input UserInput {
+  deviceToken: String
+  policyholderID: String
+  policyID: String
+  quoteID: String
+  coverageStartDate: String
+  clientTimeZone: String
+  firstName: String
+  lastName: String
+  suffix: String
+  gender: String
+  tosChecked: Boolean
+  dateOfBirth: String
+  maritalStatus: String
+  driverLicenseNumber: String
+  driverLicenseState: String
+  encryptedLicenseNumber: String
+  licenseStatus: String
+  phoneNumber: String
+  email: String
+  street1: String
+  street2: String
+  city: String
+  state: String
+  zipCode: String
+  latitude: Float
+  longitude: Float
+  appInstalled: String
+  drivers: [DriverInput]
+  vehicles: [VehicleInput]
+  policyWideCoverage: PWCoverage
+  paymentPlan: PaymentPlanEnum
+  errors: [String]
+  loggedInAt: [String]
+  coverages: QuoteCoverageData
+  quoteData: QuoteInfo
+  selectedQuoteId: String
+  paymentIntentId: String
+  documentRequestID: String
+  stripeCustomerID: String
+  policyNumber: String
+  documents: [SignDocumentInput]
+  amount: Float
+  signatureRequestId: String
+  autoPay: Boolean
+  driverVehicleTimeStamp: String
+  activeMember: Boolean
+}
+
+enum PaymentPlanEnum {
+  ONE
+  TWO
+  THREE
+}
+
+input PWCoverage {
+  bi: Bi
+  pd: Pd
+  pip: Pip
+  umbi: Boolean
+  medpay: Boolean
+}
+
+input Bi {
+  isSelected: Boolean
+  limits: BI_LimitsEnum
+}
+
+enum BI_LimitsEnum {
+  THIRTY_SIXTY
+  FIFTY_ONE_HUNDRED
+  ONE_HUNDRED_THREE_HUNDRED
+  TWO_FIFTY_FIVE_HUNDRED
+}
+
+input Pd {
+  isSelected: Boolean
+  limits: PD_LimitsEnum
+}
+
+enum PD_LimitsEnum {
+  TWENTY_FIVE
+  FIFTY
+  ONE_HUNDRED
+}
+
+input Pip {
+  isSelected: Boolean
+  limits: PIP_LimitsEnum
+}
+
+enum PIP_LimitsEnum {
+  TWENTY_FIVE_HUNDRED
+  FIVE_THOUSAND
+  TEN_THOUSAND
+}
+
+input Comprehensive {
+  isSelected: Boolean
+  deductible: CompDeductibleEnum
+}
+
+input Collision {
+  isSelected: Boolean
+  deductible: CollDeductibleEnum
+}
+
+enum CompDeductibleEnum {
+  ONE_HUNDRED
+  TWO_FIFTY
+  FIVE_HUNDRED
+  ONE_THOUSAND
+}
+
+enum CollDeductibleEnum {
+  ONE_HUNDRED
+  TWO_FIFTY
+  FIVE_HUNDRED
+  ONE_THOUSAND
+}
+
+input DriverInput {
+  driverAndVehicleDocID: String
+  isPrimary: Boolean
+  isSelected: Boolean
+  isExcluded: Boolean
+  firstName: String
+  lastName: String
+  suffix: String
+  gender: String
+  dateOfBirth: String
+  maritalStatus: String
+  phoneNumber: String
+  address: DriverAddress
+  driverLicenseState: String
+  driverLicenseNumber: String
+  encryptedLicenseNumber: String
+  licenseStatus: String
+  relation: String
+  isInstalled: Boolean
+  isInvited: Boolean
+  mvrIndicator: String
+}
+
+input DriverAddress {
+  street1: String!
+  street2: String
+  city: String!
+  state: String!
+  zipCode: String!
+}
+
+input VehicleInput {
+  driverAndVehicleDocID: String
+  vehicleDocID: String
+  vehicleInternalID: String
+  street1: String
+  street2: String
+  city: String
+  state: String
+  zipCode: String
+  "this will be deprecated in the future"
+  licensePlate: String
+  licensePlateState: String
+  isSelected: Boolean
+  vin: String
+  encryptedVIN: String
+  year: String
+  make: String
+  model: String
+  comprehensive: Comprehensive
+  collision: Collision
+  vehicleOwnership: OwnerShip
+  vehicleYearlyMiles: YearlyMiles
+  businessUse: Boolean
+  commuting: Boolean
+  ridesharing: Boolean
+  coverages: VehicleCoverageData
+  title: String
+}
+
+input VehicleCoverageData {
+  collision: VehicleCoverageObject
+  comprehensive: VehicleCoverageObject
+}
+
+input QuoteInfo {
+  id: String
+  lengthInMonths: Int
+  effectiveDate: String
+  expirationDate: String
+  quotes: [QuoteObject]
+}
+
+input QuoteObject {
+  id: String
+  totalQuotePremium: Float
+  name: String
+  paymentSchedule: [PaymentScheduleInput]
+  discountsApplied: [DiscountsAppliedInput]
+  premiumByCoverage: [PremiumCoverage]
+}
+
+input PremiumCoverage {
+  premium: Float
+  shortName: String
+  vehicleInternalID: String
+}
+
+input PaymentScheduleInput {
+  date: String
+  amount: Float
+}
+
+input DiscountsAppliedInput {
+  name: String
+  discount: String
+  discountAmount: Float
+}
+
+input VehicleCoverageObject {
+  name: String
+  isSelected: Boolean
+  deductible: String
+}
+
+input QuoteCoverageData {
+  bodilyInjury: CoverageObject
+  personalInjury: CoverageObject
+  propertyDamage: CoverageObject
+  uninsuredMotorist: CoverageObject
+  uninsuredProperty: CoverageObject
+}
+
+input CoverageObject {
+  name: String
+  isSelected: Boolean
+  limit: String
+}
+
+type UserInfoResult {
+  success: Boolean
+  code: String
+  message: String
+  errors: [FieldError]
+}
+# type CustomTokenResponse implements MutationResponse {
+#   success: Boolean!
+#   code: String!
+#   message: String!
+#   errors: [FieldError]
+# }
+
+input DynamicLinkInput {
+  phoneNumber: String!
+  authToken: String
+  link: String
+  policyID: String
+}
+
+type EggResponse {
+  code: String
+  success: Boolean
+  message: String
+}
+type DynamicLinkResponse implements MutationResponse {
+  success: Boolean!
+  code: String!
+  message: String!
+  errors: [FieldError]
+}
+input GetUserByField {
+  field1: String!
+  value1: String!
+  field2: String
+  value2: String
+  field3: String
+  value3: String
+}
+
+input SMSInput {
+  phoneNumber: String
+  message: String
+}
+
+type SMSResponse implements MutationResponse {
+  success: Boolean!
+  code: String!
+  message: String!
+  errors: [FieldError]
+}
+
+input WannabeInput {
+  driverAndVehicleDocID: String
+  uuid: String
+  firstName: String
+  lastName: String
+  suffix: String
+  dateOfBirth: String
+  tosChecked: Boolean
+  maritalStatus: String
+  driverLicenseNumber: String
+  driverLicenseState: String
+  phoneNumber: String
+  email: String
+}
+
+type CreateResponse implements MutationResponse {
+  data: String
+  success: Boolean!
+  code: String!
+  message: String!
+  errors: [FieldError]
+}
+
+type GetUserResponse {
+  errors: [String]
+  loggedInAt: [String]
+  docID: String
+  firstName: String
+  lastName: String
+  suffix: String
+  email: String
+  dateOfBirth: String
+  maritalStatus: String
+  driverLicenseNumber: String
+  driverLicenseState: String
+  encryptedLicenseNumber: String
+  phoneNumber: String
+  signatureRequestId: String
+  licenseStatus: String
+  street1: String
+  street2: String
+  city: String
+  gender: String
+  state: String
+  zipCode: String
+  longitude: Float
+  latitude: Float
+  success: Boolean
+  message: String
+  code: String
+  drivers: [Drivers]
+  vehicles: [Vehicles]
+  coverages: PolicyWideCoverage
+  quoteData: QuoteData
+  selectedQuoteId: String
+  policyholderID: String
+  policyID: String
+  quoteID: String
+  paymentIntentId: String
+  documentRequestID: String
+  stripeCustomerID: String
+  policyNumber: String
+  documents: [SignDocument]
+  amount: Float
+  autoPay: Boolean
+  driverVehicleTimeStamp: String
+}
+
+type Drivers {
+  driverAndVehicleDocID: String
+  driverLicenseNumber: String
+  driverLicenseState: String
+  encryptedLicenseNumber: String
+  firstName: String
+  lastName: String
+  suffix: String
+  isPrimary: Boolean
+  isSelected: Boolean
+  isInstalled: Boolean
+  isInvited: Boolean
+  isExcluded: Boolean
+  maritalStatus: String
+  licenseStatus: String
+  relation: String
+  address: AddressResponse
+  dateOfBirth: String
+  phoneNumber: String
+}
+
+type AddressResponse {
+  street1: String
+  street2: String
+  city: String
+  state: String
+  zipCode: String
+}
+
+type Vehicles {
+  vehicleDocID: String
+  driverAndVehicleDocID: String
+  vehicleInternalID: String
+  isSelected: Boolean
+  vehicleOwnership: String
+  vehicleUsage: String
+  vin: String
+  encryptedVIN: String
+  year: String
+  make: String
+  model: String
+  businessUse: Boolean
+  commuting: Boolean
+  ridesharing: Boolean
+  vehicleYearlyMiles: String
+  coverages: VehicleCoverage
+}
+
+type VehicleCoverage {
+  collision: VehicleCoverageInfo
+  comprehensive: VehicleCoverageInfo
+}
+
+type VehicleCoverageInfo {
+  name: String
+  isSelected: Boolean
+  deductible: String
+}
+
+type PolicyWideCoverage {
+  bodilyInjury: PolicyWideCoverageObject
+  # personalInjury: PolicyWideCoverageObject
+  propertyDamage: PolicyWideCoverageObject
+  uninsuredMotorist: PolicyWideCoverageObject
+  # uninsuredProperty: PolicyWideCoverageObject
+}
+
+type PolicyWideCoverageObject {
+  name: String
+  isSelected: Boolean
+  limit: String
+}
+
+type QuoteData {
+  effectiveDate: String
+  expirationDate: String
+  id: String
+  lengthInMonths: Int
+  quotes: [QuoteType]
+}
+
+type QuoteType {
+  discountsApplied: [DiscountsApplied]
+  id: String
+  name: String
+  paymentSchedule: [PaymentSchedule]
+  totalQuotePremium: Float
+  premiumByCoverage: [PremiumByCoverage]
+}

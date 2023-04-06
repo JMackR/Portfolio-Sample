@@ -1,0 +1,11 @@
+scalar Date
+
+scalar DateTime
+
+scalar Time
+
+scalar JSON
+
+scalar JSONObject
+
+scalar Upload

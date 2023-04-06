@@ -1,0 +1,1917 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Snapshot Tests the button type is danger the button size is large button creates properly 1`] = `
+.c0 {
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 48px;
+  background-color: #F5E064;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #00000000;
+  border-width: 1px;
+  box-sizing: border-box;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 24px;
+  -webkit-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0:hover {
+  background-color: #FAF0B9;
+  cursor: pointer;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c0:active {
+  background-color: #F5E064;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.c2 {
+  color: #FFFFFF;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: ABCSocial-Bold,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.c2:hover {
+  color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c2:active {
+  color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+<button
+  aria-label=""
+  className="c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+  >
+    <span
+      className="c2"
+    >
+      danger
+    </span>
+  </div>
+</button>
+`;
+
+exports[`Button Snapshot Tests the button type is danger the button size is small button creates properly 1`] = `
+.c0 {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 32px;
+  background-color: #F5E064;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #00000000;
+  border-width: 1px;
+  box-sizing: border-box;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 24px;
+  -webkit-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0:hover {
+  background-color: #FAF0B9;
+  cursor: pointer;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c0:active {
+  background-color: #F5E064;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.c2 {
+  color: #FFFFFF;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: ABCSocial-Bold,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.c2:hover {
+  color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c2:active {
+  color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+<button
+  aria-label=""
+  className="c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+  >
+    <span
+      className="c2"
+    >
+      danger small
+    </span>
+  </div>
+</button>
+`;
+
+exports[`Button Snapshot Tests the button type is disabled the button size is large button creates properly 1`] = `
+.c0 {
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 48px;
+  background-color: #F0F0F0;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #00000000;
+  border-width: 1px;
+  box-sizing: border-box;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 24px;
+  -webkit-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0:hover {
+  background-color: #F0F0F0;
+  cursor: pointer;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c0:active {
+  background-color: #F0F0F0;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.c2 {
+  color: #AAAAAF;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: ABCSocial-Bold,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.c2:hover {
+  color: #FFFFFF;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c2:active {
+  color: #FFFFFF;
+  -webkit-transition: background-color 100ms linear;
+}
+
+<button
+  aria-label=""
+  className="c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+  >
+    <span
+      className="c2"
+    >
+      disabled
+    </span>
+  </div>
+</button>
+`;
+
+exports[`Button Snapshot Tests the button type is disabled the button size is large button creates properly 2`] = `
+.c0 {
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 48px;
+  background-color: #F0F0F0;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #00000000;
+  border-width: 1px;
+  box-sizing: border-box;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 24px;
+  -webkit-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0:hover {
+  background-color: #F0F0F0;
+  cursor: pointer;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c0:active {
+  background-color: #F0F0F0;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.c2 {
+  color: #AAAAAF;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: ABCSocial-Bold,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.c2:hover {
+  color: #FFFFFF;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c2:active {
+  color: #FFFFFF;
+  -webkit-transition: background-color 100ms linear;
+}
+
+<button
+  aria-label=""
+  className="c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+  >
+    <span
+      className="c2"
+    >
+      disabled
+    </span>
+  </div>
+</button>
+`;
+
+exports[`Button Snapshot Tests the button type is disabled the button size is small button creates properly 1`] = `
+.c0 {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 32px;
+  background-color: #F0F0F0;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #00000000;
+  border-width: 1px;
+  box-sizing: border-box;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 24px;
+  -webkit-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0:hover {
+  background-color: #F0F0F0;
+  cursor: pointer;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c0:active {
+  background-color: #F0F0F0;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.c2 {
+  color: #AAAAAF;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: ABCSocial-Bold,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.c2:hover {
+  color: #FFFFFF;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c2:active {
+  color: #FFFFFF;
+  -webkit-transition: background-color 100ms linear;
+}
+
+<button
+  aria-label=""
+  className="c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+  >
+    <span
+      className="c2"
+    >
+      disabled small
+    </span>
+  </div>
+</button>
+`;
+
+exports[`Button Snapshot Tests the button type is disabled the button size is small button creates properly 2`] = `
+.c0 {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 32px;
+  background-color: #F0F0F0;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #00000000;
+  border-width: 1px;
+  box-sizing: border-box;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 24px;
+  -webkit-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0:hover {
+  background-color: #F0F0F0;
+  cursor: pointer;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c0:active {
+  background-color: #F0F0F0;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.c2 {
+  color: #AAAAAF;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: ABCSocial-Bold,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.c2:hover {
+  color: #FFFFFF;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c2:active {
+  color: #FFFFFF;
+  -webkit-transition: background-color 100ms linear;
+}
+
+<button
+  aria-label=""
+  className="c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+  >
+    <span
+      className="c2"
+    >
+      disabled small
+    </span>
+  </div>
+</button>
+`;
+
+exports[`Button Snapshot Tests the button type is primary the button size is large button creates properly 1`] = `
+.c0 {
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 48px;
+  background-color: #F5E064;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #00000000;
+  border-width: 1px;
+  box-sizing: border-box;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 24px;
+  -webkit-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0:hover {
+  background-color: #FAF0B9;
+  cursor: pointer;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c0:active {
+  background-color: #F5E064;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.c2 {
+  color: #23231E;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: ABCSocial-Bold,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.c2:hover {
+  color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c2:active {
+  color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+<button
+  aria-label=""
+  className="c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+  >
+    <span
+      className="c2"
+    >
+      test
+    </span>
+  </div>
+</button>
+`;
+
+exports[`Button Snapshot Tests the button type is primary the button size is small button creates properly 1`] = `
+.c0 {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 32px;
+  background-color: #F5E064;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #00000000;
+  border-width: 1px;
+  box-sizing: border-box;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 24px;
+  -webkit-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0:hover {
+  background-color: #FAF0B9;
+  cursor: pointer;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c0:active {
+  background-color: #F5E064;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.c2 {
+  color: #23231E;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: ABCSocial-Bold,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.c2:hover {
+  color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c2:active {
+  color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+<button
+  aria-label=""
+  className="c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+  >
+    <span
+      className="c2"
+    >
+      primary small
+    </span>
+  </div>
+</button>
+`;
+
+exports[`Button Snapshot Tests the button type is primary the button size is xlarge button creates properly 1`] = `
+.c0 {
+  padding-left: 18px;
+  padding-right: 18px;
+  height: 60px;
+  background-color: #F5E064;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #00000000;
+  border-width: 1px;
+  box-sizing: border-box;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 24px;
+  -webkit-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0:hover {
+  background-color: #FAF0B9;
+  cursor: pointer;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c0:active {
+  background-color: #F5E064;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.c2 {
+  color: #23231E;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: ABCSocial-Bold,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.c2:hover {
+  color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c2:active {
+  color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+<button
+  aria-label=""
+  className="c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+  >
+    <span
+      className="c2"
+    >
+      primary xlarge
+    </span>
+  </div>
+</button>
+`;
+
+exports[`Button Snapshot Tests the button type is secondary the button size is large button creates properly 1`] = `
+.c0 {
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 48px;
+  background-color: #23231E;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #00000000;
+  border-width: 1px;
+  box-sizing: border-box;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 24px;
+  -webkit-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0:hover {
+  background-color: #878787;
+  cursor: pointer;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c0:active {
+  background-color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.c2 {
+  color: #FFFFFF;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: ABCSocial-Bold,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.c2:hover {
+  color: #FFFFFF;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c2:active {
+  color: #FFFFFF;
+  -webkit-transition: background-color 100ms linear;
+}
+
+<button
+  aria-label=""
+  className="c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+  >
+    <span
+      className="c2"
+    >
+      secondary
+    </span>
+  </div>
+</button>
+`;
+
+exports[`Button Snapshot Tests the button type is secondary the button size is small button creates properly 1`] = `
+.c0 {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 32px;
+  background-color: #23231E;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #00000000;
+  border-width: 1px;
+  box-sizing: border-box;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 24px;
+  -webkit-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0:hover {
+  background-color: #878787;
+  cursor: pointer;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c0:active {
+  background-color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.c2 {
+  color: #FFFFFF;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: ABCSocial-Bold,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.c2:hover {
+  color: #FFFFFF;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c2:active {
+  color: #FFFFFF;
+  -webkit-transition: background-color 100ms linear;
+}
+
+<button
+  aria-label=""
+  className="c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+  >
+    <span
+      className="c2"
+    >
+      secondary small
+    </span>
+  </div>
+</button>
+`;
+
+exports[`Button Snapshot Tests the button type is selector the button size is large button creates properly 1`] = `
+.c0 {
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 74px;
+  background-color: #F0F0F0;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #00000000;
+  border-width: 1px;
+  box-sizing: border-box;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 21px;
+  -webkit-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 8px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c0:hover {
+  background-color: #FAF0B9;
+  cursor: pointer;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c0:active {
+  background-color: #FAF0B9;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.c2 {
+  color: #23231E;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: ABCSocial-Bold,sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.c2:hover {
+  color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c2:active {
+  color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+<button
+  aria-label=""
+  className="c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+  >
+    <span
+      className="c2"
+    >
+      selector
+    </span>
+  </div>
+</button>
+`;
+
+exports[`Button Snapshot Tests the button type is selector the button size is small button creates properly 1`] = `
+.c0 {
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 74px;
+  background-color: #F0F0F0;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #00000000;
+  border-width: 1px;
+  box-sizing: border-box;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 21px;
+  -webkit-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 8px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c0:hover {
+  background-color: #FAF0B9;
+  cursor: pointer;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c0:active {
+  background-color: #FAF0B9;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.c2 {
+  color: #23231E;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: ABCSocial-Bold,sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.c2:hover {
+  color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c2:active {
+  color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+<button
+  aria-label=""
+  className="c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+  >
+    <span
+      className="c2"
+    >
+      selector small
+    </span>
+  </div>
+</button>
+`;
+
+exports[`Button Snapshot Tests the button type is transparent the button size is large button creates properly 1`] = `
+.c0 {
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 48px;
+  background-color: transparent;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #00000000;
+  border-width: 1px;
+  box-sizing: border-box;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 24px;
+  -webkit-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0:hover {
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c0:active {
+  background-color: transparent;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.c2 {
+  color: #696969;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: ABCSocial-Bold,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.c2:hover {
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c2:active {
+  -webkit-transition: background-color 100ms linear;
+}
+
+<button
+  aria-label=""
+  className="c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+  >
+    <span
+      className="c2"
+    >
+      transparent
+    </span>
+  </div>
+</button>
+`;
+
+exports[`Button Snapshot Tests the button type is transparent the button size is small button creates properly 1`] = `
+.c0 {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 32px;
+  background-color: transparent;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #00000000;
+  border-width: 1px;
+  box-sizing: border-box;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 24px;
+  -webkit-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0:hover {
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c0:active {
+  background-color: transparent;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.c2 {
+  color: #696969;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: ABCSocial-Bold,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.c2:hover {
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c2:active {
+  -webkit-transition: background-color 100ms linear;
+}
+
+<button
+  aria-label=""
+  className="c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+  >
+    <span
+      className="c2"
+    >
+      transparent small
+    </span>
+  </div>
+</button>
+`;
+
+exports[`Button Snapshot Tests there is a subtitle button creates properly 1`] = `
+.c0 {
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 48px;
+  background-color: #F5E064;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #00000000;
+  border-width: 1px;
+  box-sizing: border-box;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 24px;
+  -webkit-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0:hover {
+  background-color: #FAF0B9;
+  cursor: pointer;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c0:active {
+  background-color: #F5E064;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.c2 {
+  color: #23231E;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: ABCSocial-Bold,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.c2:hover {
+  color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c2:active {
+  color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+<button
+  aria-label="Test Subt Title"
+  className="c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+  >
+    <span
+      className="c2"
+    >
+      Test Text
+    </span>
+  </div>
+</button>
+`;
+
+exports[`Button Snapshot Tests there is accessibility text button creates properly 1`] = `
+.c0 {
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 48px;
+  background-color: #F5E064;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #00000000;
+  border-width: 1px;
+  box-sizing: border-box;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 24px;
+  -webkit-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0:hover {
+  background-color: #FAF0B9;
+  cursor: pointer;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c0:active {
+  background-color: #F5E064;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.c2 {
+  color: #23231E;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: ABCSocial-Bold,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.c2:hover {
+  color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c2:active {
+  color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+<button
+  aria-label="Accessibility text goes here"
+  className="c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+  >
+    <span
+      className="c2"
+    >
+      Test Text
+    </span>
+  </div>
+</button>
+`;
+
+exports[`Button Snapshot Tests there is an icon the button size is large button creates properly 1`] = `
+.c0 {
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 48px;
+  background-color: #F5E064;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #00000000;
+  border-width: 1px;
+  box-sizing: border-box;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 24px;
+  -webkit-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0:hover {
+  background-color: #FAF0B9;
+  cursor: pointer;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c0:active {
+  background-color: #F5E064;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c1 {
+  padding-right: 8px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.c2 {
+  height: 20px;
+  width: 20px;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.c4 {
+  color: #23231E;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: ABCSocial-Bold,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.c4:hover {
+  color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c4:active {
+  color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+<button
+  aria-label=""
+  className="c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+  >
+    <span
+      className="c2"
+    >
+      <div>
+        Test SVG
+      </div>
+    </span>
+  </div>
+  <div
+    className="c3"
+  >
+    <span
+      className="c4"
+    >
+      svg primary
+    </span>
+  </div>
+</button>
+`;
+
+exports[`Button Snapshot Tests there is an icon the button size is small button creates properly 1`] = `
+.c0 {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 32px;
+  background-color: #F5E064;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #00000000;
+  border-width: 1px;
+  box-sizing: border-box;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 24px;
+  -webkit-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0:hover {
+  background-color: #FAF0B9;
+  cursor: pointer;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c0:active {
+  background-color: #F5E064;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c1 {
+  padding-right: 8px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.c2 {
+  height: 20px;
+  width: 20px;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.c4 {
+  color: #23231E;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: ABCSocial-Bold,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.c4:hover {
+  color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c4:active {
+  color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+<button
+  aria-label=""
+  className="c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+  >
+    <span
+      className="c2"
+    >
+      <div>
+        Test SVG
+      </div>
+    </span>
+  </div>
+  <div
+    className="c3"
+  >
+    <span
+      className="c4"
+    >
+      svg primary small
+    </span>
+  </div>
+</button>
+`;
+
+exports[`Button Snapshot Tests there is no side padding button creates properly 1`] = `
+.c0 {
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 48px;
+  background-color: #F5E064;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #00000000;
+  border-width: 1px;
+  box-sizing: border-box;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 24px;
+  -webkit-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0:hover {
+  background-color: #FAF0B9;
+  cursor: pointer;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c0:active {
+  background-color: #F5E064;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.c2 {
+  color: #23231E;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: ABCSocial-Bold,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.c2:hover {
+  color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+.c2:active {
+  color: #23231E;
+  -webkit-transition: background-color 100ms linear;
+}
+
+<button
+  aria-label=""
+  className="c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+  >
+    <span
+      className="c2"
+    >
+      no side padding
+    </span>
+  </div>
+</button>
+`;

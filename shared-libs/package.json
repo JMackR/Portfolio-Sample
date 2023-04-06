@@ -1,0 +1,23 @@
+{
+  "name": "@sample/shared-libs",
+  "version": "1.0.0",
+  "description": "Library of shared components for sample.",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "jest --projects  test/react",
+    "watch": "jest --projects  test/react --coverage --watch ",
+    "test:update": "jest --projects  test/react -u",
+    "test:react-native": "jest --projects test/react-native"
+  },
+  "jest-junit": {
+    "outputDirectory": "../build",
+    "ancestorSeparator": " › ",
+    "classNameTemplate": "{classname}",
+    "suiteName": "shared-libs jest tests",
+    "suiteNameTemplate": "{filename}",
+    "titleTemplate": "{title}",
+    "uniqueOutputName": "true"
+  }
+}

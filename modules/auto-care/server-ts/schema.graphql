@@ -1,0 +1,271 @@
+extend type Query {
+  getSentienceAuth(external_id: String): AuthResponse
+  linkSentienceUser(external_id: String): LinkResponse
+  getCorePolicy(input: PolicyInput): CorePolicyResponse
+  getCoverages(input: PolicyInput): CoveragesResponse
+  getDocuments(input: PolicyInput): DocumentsResponse
+  findAddress(searchValue: String!): AddressResponse
+}
+extend type Mutation {
+  linkSentienceUser(external_id: String): LinkResponse
+  makeMobilePayment(input: MakeMobilePaymentInput): MobilePaymentResponse
+  saveAndSendClaim(sendTo: SendTo!): SendEmailResponse
+}
+input MakeMobilePaymentInput {
+  customerID: String
+  amount: String
+  policy_locator: String
+  invoice_locator: String
+  process_source: String
+}
+type SendEmailResponse {
+  success: String
+}
+input SendTo {
+  name: String
+  email: String
+  answers: Answers
+}
+input Answers {
+  _1_0: String
+  _2_0: String
+  _2_1: String
+  _2_2: String
+  _3_0: String
+  _4_0: String
+  _4_1: String
+  _4_2: String
+  _4_3: String
+  _4_4: String
+  _5_0: String
+  _5_1: String
+  _5_2: String
+  _6_0: String
+  _7_0: String
+  _8_0: String
+  _9_1: String
+  _10_0: String
+  _11_0: String
+  _12_0: String
+  _13_0: String
+  _14_0: String
+  _15_0: String
+  _15_1: String
+  _16_0: String
+  _17_0: String
+  _18_0: String
+  _19_0: String
+  _20_0: String
+  _20_1: String
+  _21_0: String
+  _22_0: String
+  _23_0: String
+  _24_1: String
+  _25_0: String
+  _26_0: String
+  _26_1: String
+  _26_2: String
+  _27_0: String
+  _28_0: String
+}
+type MobilePaymentResponse {
+  paymentIntent: String
+  ephemeralKey: String
+  customer: String
+  publishableKey: String
+}
+
+input PolicyInput {
+  policyID: String!
+  driversLicense: String
+  phoneNumber: String
+  uid: String
+}
+
+type CorePolicyResponse {
+  user: User
+  policy: Policy
+  vehicles: [Vehicle]
+  coveredDrivers: [CoveredDrivers]
+  coreBilling: CoreBilling
+}
+
+type CoveragesResponse {
+  vehicleCoverage: [PolicyVehiclesCoverage]
+  policyCoverages: [PolicyCoverage]
+}
+type DocumentsResponse {
+  documents: [Document]
+}
+type Document {
+  id: ID
+  name: String
+  url: String
+}
+type PolicyResponse {
+  id: String
+  success: String
+  code: String
+  message: String
+  error: String
+}
+
+type User {
+  id: ID
+  firstName: String
+  lastName: String
+  suffix: String
+  phoneNumber: String
+  email: String
+}
+type Address {
+  street1: String
+  street2: String
+  city: String
+  state: String
+  zipcode: String
+}
+type Policy {
+  policyID: ID
+  policyNumber: String
+  effectiveDate: String
+  expirationDate: String
+  status: String
+}
+
+type CoreBilling {
+  stripeCustomerID: ID
+  upcomingPaymentDate: String
+  upcomingPaymentAmount: Float
+  upcomingPaymentStatus: String
+  upcomingPaymentInvoiceID: String
+  upcomingPayments: [UpcomingPayment]
+  pastPayments: [PastPayment]
+  autopayStatus: Boolean
+}
+type UpcomingPayment {
+  paymentDate: String
+  paymentAmount: Float
+  policyID: String
+  status: String
+}
+type PastPayment {
+  paymentDate: String
+  paymentAmount: Float
+  paymentMethod: String
+  paymentLastFour: String
+  paymentIntentID: String
+}
+type Billing {
+  id: String
+  autoPayStatus: Boolean
+  paymentMethods: [PaymentMethod]
+  "defaultCardStatus represents if the default card is expired"
+  defaultCardStatus: Boolean
+  paymentSuccess: String
+  paymentError: String
+}
+type PaymentMethod {
+  paymentMethodID: ID
+  brand: String
+  defaultPaymentMethod: Boolean
+  last4: String
+  exp_month: Int
+  exp_year: Int
+}
+type CoveredDrivers {
+  firstName: String
+  lastName: String
+  suffix: String
+  phone: String
+  email: String
+  isPrimary: Boolean
+  isInstalled: Boolean
+  isInvited: Boolean
+  encryptedLicenseNumber: String
+}
+type Vehicle {
+  make: String
+  model: String
+  year: String
+}
+
+type PolicyCoverage {
+  name: String
+  title: String
+  limit: String
+  description: String
+  icon: String
+  subContentSuffix: String
+}
+type PolicyVehiclesCoverage {
+  vehicleName: String
+  coverages: [PolicyVehicleCoverage]
+}
+type PolicyVehicleCoverage {
+  name: String
+  title: String
+  deductible: String
+  description: String
+  icon: String
+  subContentSuffix: String
+}
+
+type LinkResponse {
+  id: String
+  success: String
+  code: String
+  message: String
+  error: String
+}
+type AuthResponse {
+  auth_code: String
+  app_id: String
+  app_secret: String
+  platform_url: String
+}
+
+type AddressResponse implements MutationResponse {
+  response: TomTomResponse!
+  success: Boolean!
+  code: String!
+  message: String!
+  errors: [FieldError]
+}
+
+type TomTomResponse {
+  summary: TomTomSummary
+  results: [TomTomResult]
+}
+
+type TomTomSummary {
+  query: String!
+  queryType: String!
+  queryTime: Int!
+  numResults: Int!
+  offset: Int!
+  totalResults: Int!
+  fuzzyLevel: Int!
+}
+
+type TomTomResult {
+  type: String!
+  id: String!
+  score: Float!
+  address: TomTomAddress!
+}
+
+type TomTomAddress {
+  streetName: String
+  municipality: String
+  countrySecondarySubdivision: String
+  countrySubdivision: String
+  countrySubdivisionName: String
+  postalCode: String
+  extendedPostalCode: String
+  countryCode: String
+  country: String
+  countryCodeISO3: String
+  freeformAddress: String
+  localName: String
+}

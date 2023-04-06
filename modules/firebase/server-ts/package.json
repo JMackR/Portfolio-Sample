@@ -1,0 +1,11 @@
+{
+  "name": "@sample/firebase-server-ts",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest --passWithNoTests"
+  },
+  "dependencies": {
+    "@sample/comms-server-ts":"1.0.0"
+  }
+}

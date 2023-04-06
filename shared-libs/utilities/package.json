@@ -1,0 +1,25 @@
+{
+  "name": "@sample/utilities",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo hello utilities",
+    "clean": "rimraf --no-glob ./coverage ./tsconfig.tsbuildinfo",
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx --cache --cache-location ../../.cache/eslint/utilities.eslintcache",
+    "typecheck": "tsc --project ./tsconfig.json --noEmit",
+    "test-unit": "jest --config jest.config.js",
+    "fix-all-files": "eslint . --ext .ts,.tsx,.js,.jsx --fix"
+  },
+  "dependencies": {
+    "@sample/widgets": "1.0.0"
+  },
+  "peerDependencies": {
+    "@apollo/client": "^3.7.0",
+    "graphql": "^16.6.0",
+    "react": "^18.2.0",
+    "react-router-dom": "^6.7.0"
+  },
+  "devDependencies": {
+    "@sample/eslint-config-bases": "1.0.0"
+  }
+}

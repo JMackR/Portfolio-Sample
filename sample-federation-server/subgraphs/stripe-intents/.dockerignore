@@ -1,0 +1,70 @@
+# All node_modules directories
+node_modules
+**/node_modules
+.dockerignore
+# All secrets
+**/.env.local
+**/.env.*.local
+
+# By default all git files
+.git
+.gitignore
+.gitattributes
+.github
+
+# Tools caches
+.cache/*
+tsconfig.tsbuildinfo
+.eslintcache
+ server/build/index*
+# Yarn
+!.yarnrc.yml
+!.yarn/plugins
+!.yarn/releases
+
+# Used when building with nextjs (next-eslint)
+!.eslintrc.base.json
+!.prettierignore
+!.prettierrc.js
+!.eslintignore
+
+# npm
+!.npmrc
+
+# Docker related
+.dockerignore
+Dockerfile
+docker-compose.*.yml
+docker-compose.yml
+docker
+
+# Log files
+logs
+*.log
+
+# Temp files
+tmp
+*.tmp
+
+# IDE related
+
+.idea
+.vscode
+
+app.yaml
+lint-staged.config.js
+lint-staged.common.js
+tsconfig.base.json
+tsconfig.json
+server.yml
+storybook-app.yaml
+renovate.json5
+CODEING_STANDARDS.md
+PULL_REQUEST_TEMPLATE.md
+README.md
+bitbucket-pipelines.yml
+monorepo.code-workspace
+eslint-config-bases
+commitlint.config.js
+cli.js
+playwright

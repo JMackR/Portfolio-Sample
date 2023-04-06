@@ -1,0 +1,170 @@
+PROJECT_NAME = 'Sample'
+XCODE_PROJECT = "./#{PROJECT_NAME}.xcodeproj"
+XCODE_WORKSPACE = "./#{PROJECT_NAME}.xcworkspace"
+OUTPUT_DIRECTORY = "./fastlane/builds"
+IPA_DIRECTORY = "#{OUTPUT_DIRECTORY}/#{PROJECT_NAME}.ipa"
+TESTERS_FILE = "./fastlane/testers.txt"
+BUILD_FOR_DEVELOPMENT_ONLY = false # true = Build for Development | false = Build to create a release
+BUILD_ONLY = true
+
+
+default_platform(:ios)
+
+platform :ios do
+  private_lane :buildTestFlight do 
+    configuration_name = "Release"
+    export_options_method = "appstore"
+    code_sign_identity = "Apple Distribution"
+    # MY_APP_ID = ENV["APP_IDENTIFIER"]
+    # MY_PROFILE = "match AppStore #{ENV["APP_IDENTIFIER"]}"
+    # MY_TEAM = ENV["DEVELOPER_TEAM_ID"]
+    MY_APP_ID = ""
+    MY_PROFILE = ""
+    MY_TEAM = ""
+
+   
+    settings_to_override = {
+      :BUNDLE_IDENTIFIER => MY_APP_ID,
+      :PROVISIONING_PROFILE_SPECIFIER => MY_PROFILE,
+      :DEVELOPMENT_TEAM => MY_TEAM,
+    }
+
+    match(
+    app_identifier: "",
+    git_url: "",
+    type: "appstore",
+    username: "",
+    team_id: MY_TEAM,
+    readonly: true
+    )
+
+    gym(
+      scheme: '',
+      workspace: XCODE_WORKSPACE,
+      silent: true,
+      configuration: configuration_name,
+      xcargs: "-UseNewBuildSystem=YES",
+      output_directory: OUTPUT_DIRECTORY,
+      output_name: "#{PROJECT_NAME}.ipa",
+      export_options: {
+       method: "appstore",
+       signingStyle: "manual",
+       provisioningProfiles: { 
+           MY_APP_ID => MY_PROFILE
+						
+
+       }
+      }
+     
+    )
+
+  end
+ 
+ 
+  desc "Push a new beta build to TestFlight"
+  lane :beta do
+   # Build the ios Ipa
+    #  build_app(workspace: "Sample.xcworkspace", scheme: "Sample", configuration: 'Release')
+    increment_build_number(xcodeproj: XCODE_PROJECT)
+
+    buildTestFlight
+    api_key = app_store_connect_api_key(
+    key_id: "",
+    issuer_id: "",
+    key_filepath: "",
+    in_house: false # optional but may be required if using match/sigh
+  )
+  #Upload to testflight 
+  upload_to_testflight(app_identifier: MY_APP_ID, ipa: IPA_DIRECTORY,api_key: api_key,skip_waiting_for_build_processing: true)
+   
+    
+  end
+
+
+
+
+  desc "Building your App for QA"
+  lane :qa do |options|
+      puts "+------------------------------------+".bold.blue
+      puts "|-- Environment: #{options[:profile]} 🚀 --|".bold.blue
+      puts "+------------------------------------+".bold.blue
+      tester_udids_file = "./tester_udids.txt"
+      increment_build_number(xcodeproj: XCODE_PROJECT)
+
+      MY_APP_ID = ""
+      MY_PROFILE = ""
+      MY_TEAM = ""
+      
+      settings_to_override = {
+        :BUNDLE_IDENTIFIER => MY_APP_ID,
+        :PROVISIONING_PROFILE_SPECIFIER => MY_PROFILE,
+        :DEVELOPMENT_TEAM => MY_TEAM
+      }
+    match(
+      app_identifier: MY_APP_ID,
+      type: "adhoc",
+      git_url: "",
+      username: "",
+      readonly: true
+    )
+    gym(
+      workspace: XCODE_WORKSPACE,
+      scheme: "",
+      configuration: "Release",
+      export_method: "ad-hoc",
+      export_options: {
+          provisioningProfiles: { 
+              MY_APP_ID => MY_PROFILE
+          }
+      }
+    ) 
+    firebase_app_distribution(
+      app: '',
+      # groups: "sampleer-dev-ios",
+      firebase_cli_token: ENV["FIREBASE_TOKEN"],
+      release_notes: "Lots of amazing new features to test out!"
+    )
+  end
+  desc "Building your App for UAT"
+  lane :uat do |options|
+    puts "+------------------------------------+".bold.blue
+    puts "|-- Environment: #{options[:profile]} 🚀 --|".bold.blue
+    puts "+------------------------------------+".bold.blue
+    tester_udids_file = "./tester_udids.txt"
+    increment_build_number(xcodeproj: XCODE_PROJECT)
+
+    MY_APP_ID = ""
+    MY_PROFILE = ""
+    MY_TEAM = ""
+    
+    settings_to_override = {
+      :BUNDLE_IDENTIFIER => MY_APP_ID,
+      :PROVISIONING_PROFILE_SPECIFIER => MY_PROFILE,
+      :DEVELOPMENT_TEAM => MY_TEAM
+    }
+  match(
+    app_identifier: MY_APP_ID,
+    type: "adhoc",
+    git_url: "",
+    username: "",
+    readonly: true
+  )
+  gym(
+    workspace: XCODE_WORKSPACE,
+    scheme: "Sample",
+    configuration: "Release",
+    export_method: "ad-hoc",
+    export_options: {
+        provisioningProfiles: { 
+            MY_APP_ID => MY_PROFILE
+        }
+    }
+  ) 
+  firebase_app_distribution(
+    app: '',
+    # groups: "sampleer-dev-ios",
+    firebase_cli_token: ENV["FIREBASE_TOKEN"],
+    release_notes: "Lots of amazing new features to test out!"
+  )
+end
+end

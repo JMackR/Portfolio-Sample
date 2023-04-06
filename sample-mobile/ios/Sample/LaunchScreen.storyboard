@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" image="samplelogo" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="btd-e3-tun">
+                                <rect key="frame" x="150" y="288" width="127" height="301"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="74" id="QDz-00-5AU"/>
+                                    <constraint firstAttribute="width" secondItem="btd-e3-tun" secondAttribute="height" multiplier="37:60" id="VQo-jt-337"/>
+                                    <constraint firstAttribute="height" constant="120" id="jCn-ST-0JJ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" red="0.98039215686274506" green="0.94117647058823528" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" image="YES"/>
+                        </accessibility>
+                        <constraints>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="btd-e3-tun" secondAttribute="trailing" constant="151" id="1dI-hm-9Kt"/>
+                            <constraint firstItem="btd-e3-tun" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="244" id="BVp-jF-JhA"/>
+                            <constraint firstItem="btd-e3-tun" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="150" id="DO3-cF-36I"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="btd-e3-tun" secondAttribute="bottom" constant="303" id="ae4-hR-opB"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="samplelogo" width="64" height="82"/>
+    </resources>
+</document>

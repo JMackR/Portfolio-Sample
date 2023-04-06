@@ -1,0 +1,10 @@
+federation_version: 2
+subgraphs:
+  stripe_customers:
+    routing_url: http://localhost:4001/graphql
+    schema:
+      file: ../../subgraphs/stripe-customers/src/customer.graphql
+  stripe_intents:
+    routing_url: http://localhost:4002/graphql
+    schema:
+      file: ../../subgraphs/stripe-intents/src/intents.graphql

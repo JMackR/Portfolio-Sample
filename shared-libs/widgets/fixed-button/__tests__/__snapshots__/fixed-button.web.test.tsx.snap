@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fixed Button Snapshot Tests Fixed Button has state true 1`] = `
+.margin {
+  margin: undefined;
+  margin-left: undefined;
+  margin-right: undefined;
+  margin-top: undefined;
+  margin-bottom: undefined;
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  background-color: undefined;
+  height: undefined;
+  max-width: undefined;
+  width: 100%;
+}
+
+.fixedButtonContainer {
+  position: fixed;
+  width: 100%;
+  bottom: 2px;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+}
+
+.margin {
+  margin: undefined;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  max-width: undefined;
+  width: 100%;
+}
+
+<div
+  className="fixedButtonContainer"
+>
+  <div
+    className="margin"
+  >
+    <div
+      className="margin"
+    >
+      <button
+        aria-label=""
+        className="sc-bczRLJ cXvykk"
+        onClick={[Function]}
+      >
+        <div
+          className="sc-eCYdqJ pmvfX"
+        >
+          <span
+            className="sc-jSMfEi bFVAxJ"
+          >
+            Test Button
+          </span>
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+`;

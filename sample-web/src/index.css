@@ -1,0 +1,15 @@
+/* DO NOT ADD ANY STYLES HERE BESIDES ADDING FONTS */
+
+@font-face {
+  font-family: 'ABCSocial-Regular';
+  src: local('ABCSocial-Regular'), url('../../shared-libs/assets/fonts/ABCSocial-Regular.otf') format('truetype');
+}
+@font-face {
+  font-family: 'ABCSocial-Bold';
+  src: local('ABCSocial-Bold'), url('../../shared-libs/assets/fonts/ABCSocial-Bold.otf') format('truetype');
+}
+@font-face {
+  font-family: 'ABCSocialCondensed-Black';
+  src: local('ABCSocialCondensed-Black'),
+    url('../../shared-libs/assets/fonts/ABCSocialCondensed-Black.otf') format('truetype');
+}

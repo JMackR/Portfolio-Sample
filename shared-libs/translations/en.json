@@ -1,0 +1,1191 @@
+{
+  "home": {
+    "customer-service-phone": "1-800-544-5667",
+    "coverage": {
+      "title": "Coverage",
+      "subtitle": "HELLO Dave",
+      "cta-button": "click me"
+    },
+    "home": "Home",
+    "morning": "Good Morning",
+    "afternoon": "Good Afternoon",
+    "evening": "Good Evening",
+    "welcome-back": "Welcome Back",
+    "start": "Start",
+    "end": "End",
+    "drivers": "Drivers",
+    "vehicles": "Vehicles",
+    "driver": "Driver",
+    "vehicle": "Vehicle",
+    "policy-number": "Policy Number",
+    "manage-policy": "Manage Policy",
+    "add_remove_vehicles": "Add/Remove Vehicles",
+    "add_remove_drivers": "Add/Remove Drivers",
+    "change_policy": "Change Policy",
+    "due-date": "Due Date",
+    "view-billing": "View Billing",
+    "active": "Active",
+    "autopay": "Autopay",
+    "insurance-header": "Insurance Card",
+    "payments-header": "PAYMENTS",
+    "no-payments-title": "Good to go!",
+    "no-payments-subtitle": "No payments left for this period.",
+    "policy-cancel-header": "Policy Canceled",
+    "policy-cancel-text": "Please call us to reactivate this policy",
+    "policy-cancel-button": "Call LOOP",
+    "per-month": "/ mo",
+    "upcoming-payment": "Upcoming payment",
+    "payment-modal-additional-driver-text": "We’re sorry, only the primary insured is authorized to handle payments. Please know that they have been notified.",
+    "profile": {
+      "drivers-header": "Drivers on the App",
+      "drivers-info-header": "LOOP App",
+      "drivers-info-text": "We price our policies fairly based on driving - it’s why all drivers are required to have the app. Once all drivers have logged into the app, you will see that update in your profile.",
+      "invite": "Invite",
+      "reinvite": "Re-invite",
+      "invite-modal-prefix": "What's ",
+      "invite-modal-suffix": "'s Phone Number?",
+      "invite-modal-subtitle": "We'll text her an invite to easily login to the LOOP app",
+      "invite-modal-button": "INVITE!",
+      "invite-modal-success-title": "Invite Sent!",
+      "invite-modal-success-subtitle": " has been sent a link to quickly login\nto the LOOP app",
+      "invite-modal-button-success": "Got it!",
+      "settings-header": "ACCOUNT SETTINGS",
+      "privacy-header": "PRIVACY",
+      "notifications": "Notifications",
+      "location": "Location",
+      "terms-service": "Terms of Service",
+      "privacy-policy": "Privacy Policy",
+      "sentience": {
+        "init-status": "Init Status",
+        "detection-status": "Detection Status",
+        "driver-id": "Driver ID",
+        "permission-status": "Permission Status",
+        "location": "Location",
+        "motion": "Motion",
+        "reset": "Reset SDK"
+      }
+    }
+  },
+  "billing": {
+    "header": "Payment",
+    "settings-header": "Payment Settings",
+    "plan": "Plan",
+    "monthly": "Monthly",
+    "payment-method": "Payment Method",
+    "alert-payment-success": "Successful payment of ",
+    "alert-no-payment": "No payments due until ",
+    "alert-upcoming-prefix": "Upcoming payment amount of ",
+    "alert-upcoming-suffix": " remains",
+    "settings": {
+      "make-payment-heading": "Make a Payment",
+      "make-payment-subheading": "Pay your bills at any time.",
+      "method-heading": "Change Method",
+      "method-subheading": "View and edit the way you pay.",
+      "schedule-heading": "Upcoming Payments",
+      "schedule-subheading": "View your upcoming payments.",
+      "history-heading": "Payment History",
+      "history-subheading": "View all past payments.",
+      "no-payments-title": "Good to go!",
+      "no-payments-subtitle": "No payment due at this time",
+      "make-payment-lower": "Make a payment",
+      "past-due": "Your payment is past due.",
+      "payment-issue": "There is an issue with your payment type."
+    },
+    "make-payment": {
+      "header": "Make a Payment",
+      "title": "How much do you want to pay \ntowards your policy?",
+      "credit-card": "Credit Card - ",
+      "upcoming-payment": "Upcoming payment",
+      "due-date": "Due Date",
+      "due-on": "Due on ",
+      "checkout": "Continue to checkout",
+      "balance": "Remaining balance is ",
+      "remaining-premium": "Remaining premium balance is ",
+      "processing": "Payment Processing...",
+      "success-header": "Payment Successful!",
+      "success-content-prefix": "Payment of ",
+      "success-content-suffix": " has been processed successfully ",
+      "error-limit": "You can only make payments up to ",
+      "success-alert-content": "Successful payment of $",
+      "success-alert-subcontent-prefix": "Upcoming payment amount of $",
+      "success-alert-subcontent-suffix": " remains"
+    },
+    "payment-method-modal": {
+      "card-ending": " ending in ",
+      "card-expiration": "Exp ",
+      "add": "Add new Card"
+    },
+    "payment-schedule": {
+      "installment": "Installment",
+      "no-payments": "You are good to go!\nYour renewal date is expected around "
+    },
+    "payment-history": {
+      "payment-plan": "Payment Plan",
+      "method-info": "Paid from %{method}, Credit Card *%{lastFour}",
+      "confirmation": "Confirmation #%{number}"
+    }
+  },
+  "manage-policy": {
+    "title": "MANAGE POLICY",
+    "policy-overview": "Policy Overview",
+    "documents": "Documents",
+    "make-claim": "Make a Claim",
+    "change-policy": "Change Policy"
+  },
+  "change-policy": {
+    "title": "Change Policy",
+    "add-remove-vehicle": "Add or Remove a Vehicle",
+    "update-driver": "Update Driver(s)",
+    "add-remove-lienholder": "Add or Remove Lienholder",
+    "address-change": "Address/Personal Info Change",
+    "general-inquiry": "General Inquiry"
+  },
+  "policy": {
+    "modal-heading": "Policy Overview",
+    "title": "Policy Wide Coverages",
+    "dollar-sign": "$",
+    "per-person": " per person",
+    "per-accident": " per accident",
+    "deductible": " deductible",
+    "per-day": " per day, ",
+    "rental-day": " days",
+    "bodily-injury": "Bodily Injury",
+    "bodily-injury-description": "Helps pay for injuries caused by you or a covered driver if you get in a car accident.",
+    "property-damage": "Property Damage",
+    "property-damage-description": "Helps pay for damages to other people’s property when you or a covered driver cause an accident.",
+    "personal-injury": "Personal Injury Protection",
+    "personal-injury-description": "Covers you and your passengers’ medical bills. It also pays for things like lost wages and other nonmedical costs.",
+    "uninsured-bodily-injury": "Uninsured / Underinsured Bodily Injury",
+    "uninsured-bodily-injury-description": "Covers you and the people in your car for medical bills and related expenses if you're in an accident caused by someone who is uninsured, underinsured, or a hit-and-run.",
+    "uninsured-property-damage": "Uninsured / Underinsured Property Damage",
+    "uninsured-property-damage-description": "Covers damages to your car if someone hits you and is uninsured, underinsured, or a hit-and-run.",
+    "comprehensive-coverage": "Comprehensive Coverage",
+    "comprehensive": "Comprehensive",
+    "comprehensive-coverage-description": "Covers different types of losses that are usually not the result of driving the vehicle. Think stolen car, hail, an unlucky animal, or fallen trees—something other than collision.",
+    "collision-coverage": "Collision Coverage",
+    "collision": "Collision",
+    "collision-coverage-description": "Covers your car’s repair or replacement if it’s damaged in a driving accident with another vehicle or object, such as a tree or a wall. You pay the deductible, we’ll cover the rest.",
+    "rental-reimbursement": "Rental Reimbursement Coverage",
+    "rental-reimbursement-description": "Pays for you to rent a car if yours is stolen or being repaired after an accident where a claim has been filed."
+  },
+  "claim": {
+    "yes": "Yes",
+    "no": "No",
+    "location": "Location",
+    "welcome-header": "Had an incident?\nWe’re here to help",
+    "welcome-subheader": "Please make sure you are in a safe place before starting.",
+    "add-witness": "Add Witness",
+    "navigation": {
+      "header-title": "Claims",
+      "continue": "Continue",
+      "start": "Start",
+      "back": "Back to Home",
+      "secondary": {
+        "call": "Call to file a claim",
+        "no-passengers": "No passengers",
+        "no-vehicles": "No other vehicles",
+        "no-thanks": "No, thanks",
+        "skip": "Skip",
+        "dont-know": "I don't know"
+      }
+    },
+    "process": {
+      "header": "Our Claims process",
+      "step-1-title": "File your claim",
+      "step-1-body": "Answer the questions in detail and submit the claim",
+      "step-2-title": "Meet your claims adjuster",
+      "step-2-body": "Within 1 business day your assigned claims adjuster will follow up about your submission",
+      "subcontent": "Want to file over the phone?",
+      "contact": "1-800-XXX-XXXX"
+    },
+    "category": {
+      "preliminary": "Preliminary Information",
+      "injuries": "Injuries",
+      "others-involved": "Others Involved",
+      "damage": "Damage",
+      "final-questions": "Final Questions"
+    },
+    "placeholder": {
+      "write": "Write here...",
+      "other": "Other",
+      "first-name": "First Name",
+      "first-name-optional": "First Name (Optional)",
+      "last-name": "Last Name",
+      "last-name-optional": "Last Name (Optional)",
+      "phone": "Phone Number",
+      "phone-optional": "Phone Number (Optional)",
+      "location": "Location",
+      "location-expanded": "Street Address, City, State",
+      "location-expanded-optional": "Street Address, City, State (Optional)",
+      "year": "Year",
+      "make": "Make",
+      "model": "Model",
+      "company-name": "Company Name (Optional)",
+      "contact-name": "Contact's Name (Optional)",
+      "police-department": "Police Department (Optional)",
+      "police-report": "Report Number (Optional)",
+      "passenger": "Passenger",
+      "vehicle": "Vehicle",
+      "passenger-number": "Passenger %{number}",
+      "vehicle-number": "Vehicle %{number}",
+      "witness-number": "Witness %{number}"
+    },
+    "intro": {
+      "header-1": "Let’s get your claim started",
+      "subheader-1": "In the first section you’ll be asked...",
+      "step-1-title": "Premlinary Information",
+      "step-1-body": "Let us know about the incident location, the driver and vehicle, and a description of what happened.",
+      "header-2": "Thanks for providing those details",
+      "subheader-2": "The information we’ll gather now is...",
+      "step-2-title": "Injuries",
+      "step-2-body": "Next, indicate if anyone sought out medical attention from your vehicle or other vehicles.",
+      "header-3": "LOOP is here for you",
+      "subheader-3": "Upcoming we’ll gather...",
+      "step-3-title": "Others Involved",
+      "step-3-body": "Up next, describe the passengers in your vehicle and any other vehicles involved in the incident",
+      "header-4": "Almost there",
+      "subheader-4": "In the next section...",
+      "step-4-title": "Damage",
+      "step-4-body": "Detail any damage to your vehicle, if other vehicles were damaged, as well as any property damage",
+      "header-5": "Just a few more questions",
+      "subheader-5": "Lastly we’ll ask...",
+      "step-5-title": "Final Questions",
+      "step-5-body": "Lastly, were police involved? Any witnesses? As well, optionally provide additional information"
+    },
+    "question-1": {
+      "0": {
+        "text": "Are you at the scene of the incident?"
+      }
+    },
+    "question-2": {
+      "0": {
+        "text": "Please confirm the date, time and location are correct.",
+        "sub": "You can change the information below"
+      }
+    },
+    "question-3": {
+      "0": {
+        "text": "Please provide a description of the incident.",
+        "sub": "A claims adjuster will follow up so a brief\ndescription will do"
+      }
+    },
+    "question-4A": {
+      "0": {
+        "text": "Were you the driver in the incident?"
+      }
+    },
+    "question-4B": {
+      "0": {
+        "text": "Which driver was involved in this incident?",
+        "sub": "If the driver is not listed please select ‘other’"
+      }
+    },
+    "question-4C": {
+      "0": {
+        "text": "Please provide the driver’s name and contact.",
+        "sub": "You can change the information below"
+      }
+    },
+    "question-5A": {
+      "0": {
+        "text": "Which vehicle %{driver} driving?",
+        "sub": "You can change the information below"
+      }
+    },
+    "question-5B": {
+      "0": {
+        "text": "What is the year, make and model of the vehicle?"
+      }
+    },
+    "question-6": {
+      "0": {
+        "text": "Is everyone in %{driver} %{vehicle} okay?",
+        "sub": "Has anyone complained of pain or needed to seek medical treatment?"
+      }
+    },
+    "question-7": {
+      "0": {
+        "text": "Was anyone outside of %{driver} %{vehicle} injured?",
+        "sub": "Includes pedestrians, passengers), or other drivers outside of your vehicle that indicated pain or sought treatment from a first responder"
+      }
+    },
+    "question-8": {
+      "0": {
+        "text": "How many passengers were in the vehicle?"
+      }
+    },
+    "question-9": {
+      "0": {
+        "text": "Name(s) and contact of the passenger(s)",
+        "sub": "Note: providing the phone number is optional"
+      }
+    },
+    "question-10": {
+      "0": {
+        "text": "How many other vehicles were involved in the incident?"
+      }
+    },
+    "question-11": {
+      "0": {
+        "text": "Please add the details about the other vehicles involved in the incident.",
+        "sub": "Include:\n•Make/Model/Year\n•Insurance Carrier\n•Policy Number\n•Driver’s Name and Phone Number"
+      }
+    },
+    "question-12": {
+      "0": {
+        "text": "Is there damage to %{driver} %{vehicle}?"
+      }
+    },
+    "question-13": {
+      "0": {
+        "text": "Please describe the damage to %{driver} %{vehicle}."
+      }
+    },
+    "question-14": {
+      "0": {
+        "text": "Was %{driver} %{vehicle} towed?"
+      }
+    },
+    "question-15": {
+      "0": {
+        "text": "Please provide the tow company’s name and number."
+      }
+    },
+    "question-16": {
+      "0": {
+        "text": "Was there damage to any of the other vehicles? (Optional)",
+        "sub": "This could be from dented bumper, shattered window, and/or broken head lights, etc."
+      }
+    },
+    "question-17": {
+      "0": {
+        "text": "Please provide a description of the damage caused to the other vehicles involved. (Optional)"
+      }
+    },
+    "question-18": {
+      "0": {
+        "text": "Was there any physical property damaged outside of the vehicle(s) involved?",
+        "sub": "For example, a lightpole, a fence, a traffic sign, etc."
+      }
+    },
+    "question-19": {
+      "0": {
+        "text": "What property was damaged? (Optional)"
+      }
+    },
+    "question-20": {
+      "0": {
+        "text": "Please provide the property owner’s name and number. (Optional)"
+      }
+    },
+    "question-21": {
+      "0": {
+        "text": "Was the location of the property damage the same as the accident location?",
+        "sub": "%{address}"
+      }
+    },
+    "question-22": {
+      "0": {
+        "text": "What was the location of the property damaged?"
+      }
+    },
+    "question-23": {
+      "0": {
+        "text": "Did police respond to the scene?"
+      }
+    },
+    "question-24": {
+      "0": {
+        "text": "Please provide the police department and report number."
+      }
+    },
+    "question-25": {
+      "0": {
+        "text": "Were there any witnesses to the accident?"
+      }
+    },
+    "question-26": {
+      "0": {
+        "text": "Please provide the witness name and their contact information."
+      }
+    },
+    "question-27": {
+      "0": {
+        "text": "Please provide any other information you would like to share about the incident here. (Optional)"
+      }
+    },
+    "question-28": {
+      "0": {
+        "text": "Please provide any photos or videos about the incident here. (Optional)",
+        "sub": "This can help us accurately assess your claim"
+      }
+    },
+    "final": {
+      "header": "your claim has been submitted",
+      "subheader": "LOOP is working hard on your claim.\n Next you will hear from your claims adjuster within 1 business day",
+      "have-questions": "Have Questions?"
+    }
+  },
+  "claim_navigation": {
+    "start_claim": "Start a Claim",
+    "next": "Next",
+    "complete": "Complete my claim",
+    "review": "Review my claim",
+    "submit": "Submit my claim",
+    "success-next": "Back to Home"
+  },
+  "onboarding": {
+    "log-in": "Log in",
+    "check-price": "Check our prices",
+    "phone": {
+      "heading": "Enter your phone number.",
+      "subheading": "Stay up to date on claims, upcoming payments, and whatever other notifications we have for you.",
+      "phone-number": "Phone Number",
+      "country-code": "+1"
+    },
+    "code-validation": {
+      "heading": "Enter the code.",
+      "subheading": "Enter the 6-digit code, we just sent to ",
+      "resend-code": "Did not received a code? Resend a new code in "
+    },
+    "launch": {
+      "auth-loading": "Hold tight, while we are signing you in...",
+      "auth-success-heading": "you're\nsigned in!",
+      "auth-success-subheading": "Your number is "
+    },
+    "phone-not-found": {
+      "heading": "We could not find your phone number",
+      "subheading": "We need a little more information to verify you.\nPlease provide the following in the next step:",
+      "primary-number": "Primary’s Phone Number",
+      "drivers-license-number": "Driver’s License Number",
+      "enter-primary-phone-heading": "Enter the Primary’s phone number",
+      "enter-primary-phone-subheading": "Whoever purchased the policy is the primary\npolicyholder",
+      "enter-primary-phone-error": "The number you have entered is not correct",
+      "enter-drivers-license-heading": "Enter your Driver’s license number",
+      "enter-drivers-license-subheading": "Stay up to date on claims, upcoming payments, and whatever other notifications we have for you."
+    },
+    "unverified": {
+      "heading": "Sorry, we could not verify\nthe information provided.",
+      "subheading": "Below are some options that might help.",
+      "option-1-heading": "Try again",
+      "option-1-subheading": "Already insured by LOOP? Join here",
+      "option-2-heading": "Get Quote",
+      "option-2-subheading": "Fair and equitable insurance that reinvests in your community",
+      "footer-heading": "Need further assistance?",
+      "footer-subheading": "Call 1-800-544-5667"
+    },
+    "walkthrough": {
+      "carousel-1-heading": "You are\nlogged in!",
+      "carousel-1-subheading": "Can we show you around?",
+      "carousel-2-heading": "Easily manage your\npolicy",
+      "carousel-2-subheading": "Review & update your coverage, make claims\nand add new drivers.",
+      "carousel-3-heading": "Stay ahead\nof payments",
+      "carousel-3-subheading": "See what you owe, when it’s due, and pay\nright from the app.",
+      "carousel-4-heading": "Connect with\nCustomer Care",
+      "carousel-4-subheading": "If you need anything at all,\nwe're just a few taps away!",
+      "congrats-title": "Hoorah!",
+      "congrats-text-1": "You're logged in.",
+      "congrats-text-2": "Can we show you around?",
+      "driving-title": "Build better driving habits!",
+      "driving-text": "We'll deliver real-time feedback and help you understand, improve, and share your drive.",
+      "roads-title": "Find safer roads",
+      "roads-text": "Find the safest and quickest route to get to where you're going.",
+      "claims-title": "Hassle-free claims",
+      "claims-text": "File claims, upload photos, and connect with our Care Team in a few taps.",
+      "do-good-title": "Go places, do good.",
+      "do-good-text": "We reinvest our profits back into the community - and we couldn't do it with you. Thanks for riding with LOOP.",
+      "all-set-title": "Okay, you're all set!",
+      "all-set-text": "Be sure to have the app turned on so you can get the most out of LOOP. See you on the road."
+    },
+    "landing": {
+      "heading": "Ride with a Sampleer and get the Best Rates.",
+      "get-quote": "Get a Quote from the Sampleer",
+      "has-account": "Already have an account.\n Register Now to see even more benefits from your friendly neighbor-hood Sampleer.",
+      "quick-quote": "Quick Quote",
+      "register": "Register"
+    },
+    "invite": {
+      "nav-later": "Add later",
+      "heading": "Unlock your drive with your loved ones",
+      "subheading": "Enjoy fair insurance while staying stay safe on the road with LOOP.",
+      "modal-heading": "Add phone number",
+      "modal-placeholder-prefix": "Enter ",
+      "modal-placeholder-suffix": "’s phone number",
+      "modal-button": "Send Invite"
+    },
+    "additional_driver": {
+      "phone_verification_fail": "Sorry, we could not verify the phone number provided.",
+      "primer-subheading": "Below are some options that might help.",
+      "primer-join-heading": "Join an exisisting policy",
+      "primer-join-subheading": "Already insured by LOOP? Join here",
+      "primer-quote-heading": "Get Quote",
+      "primer-quote-subheading": "Subtext",
+      "primer-assistance": "Need further assistance? Call ",
+      "landing": "Hold tight, we need a couple more things to verify you...",
+      "drivers-license-heading": "What’s your driver’s license number?",
+      "drivers-license-subheading": "We need this to verify your information.",
+      "drivers-license-error": "Please insert a valid driver’s license number",
+      "policy-holder-phone-heading": "What’s the primary policy holder’s phone number?",
+      "policy-holder-phone-subheading": "We need this to verify your information.",
+      "policy-holder-name-heading": "What’s the primary policy holder’s first and last name?",
+      "policy-holder-name-subheading": "We need this to verify your information.",
+      "policy-holder-name-error": "This name doesn’t match the primary driver",
+      "text-modal-heading": "We notified the policyholder to invite you to login.",
+      "text-modal-subheading-prefix": "We texted ",
+      "text-modal-subheading-suffix": " so they invite you to their policy! Once they invite you, you’ll get a text with a link to login.",
+      "text-modal-option-try-heading": "Try again",
+      "text-modal-option-try-subheading": "asdasdadasd",
+      "text-modal-option-quote-heading": "Get Quote",
+      "text-modal-option-quote-subheading": "asdasdadasd"
+    },
+    "phone-heading": "Enter your phone number.",
+    "phone-subheading": "We’ll text you a code to verify your phone.",
+    "phone-number": "Phone Number",
+    "area-code": "+1",
+    "code-validation-heading": "Enter the code.",
+    "code-validation-subheading": "Enter the 6-digit code, we just sent to ",
+    "code-validation-resend-code": "Resend a new code "
+  },
+  "quoting": {
+    "due-today-lower": "due today",
+    "select-limits": "Select",
+    "protect-data": "LOOP will never sell your personalized data to third parties.",
+    "gender": {
+      "title": "Gender",
+      "male": "Male",
+      "female": "Female",
+      "other": "Other / I prefer not to say"
+    },
+
+    "name-entry": {
+      "title": "Good insurance starts with an unbiased quote",
+      "subtitle": "Let's get started. Enter your name just like it is on your driver's license.",
+      "first-name": "First Name",
+      "last-name": "Last Name",
+      "suffix": "Suffix",
+      "lets-ride": "Let's ride!"
+    },
+
+    "address-entry": {
+      "title": "What's your address?",
+      "subtitle": "Use the place where you live and usually park.",
+      "address-not-found": "I can't find my address",
+      "full-address": "Street Address, City, State",
+      "failed-address-title": "Let's do this old school",
+      "failed-address-subtitle": "Please put in the address manually. We couldn't find it!",
+      "street": "Street Address",
+      "apartment": "Apt/Unit #",
+      "city": "City",
+      "state": "State",
+      "zip-code": "ZIP Code"
+    },
+
+    "email-dob-entry": {
+      "email": "Email Address",
+      "title": "Create your account",
+      "subtitle": "Enter the email you'd like to use, no password required.",
+      "dob-hint": "MM/DD/YYYY",
+      "agree-to": "I agree to the",
+      "terms-services": "terms and services"
+    },
+
+    "ubi-opt-in": {
+      "title": "Fair Pricing Based On How You Drive",
+      "subtitle": "Your info is only used to give you the best rate. We’ll never sell your data. Ever.",
+      "fair-pricing": "Download the app",
+      "customer-care": "Keep it on while you drive",
+      "claims-paid": "We give you the lowest possible price",
+      "add-number": "I agree to use the app",
+      "rather-not": "No thanks, take me to the homepage"
+    },
+
+    "phone-entry": {
+      "title": "What's your phone number?",
+      "subtitle": "We'll send you a quick verification text.",
+      "phone-number": "Phone Number"
+    },
+
+    "code-verification": {
+      "title": "Enter the code",
+      "subtitle": "Sent to ",
+      "try-again": "Resend code",
+      "phone-error": "There was an error with your phone number, please try again.",
+      "code-error": "There was an error with your code, please try again."
+    },
+
+    "license-entry": {
+      "title": "What's your drivers license number?",
+      "license-number": "Driver's License Number",
+      "license-state": "State Issued",
+      "license-validation-error": "Please enter in a valid license number."
+    },
+
+    "license-status": {
+      "title": "What’s your driver’s license status?",
+      "valid": "Valid",
+      "learners-permit": "Learner’s Permit",
+      "invalid": "Invalid"
+    },
+
+    "marital-status-entry": {
+      "title": "What's your marital status?",
+      "subtitle": "We don't want to be nosy. We just legally have to ask.",
+      "single": "Single",
+      "married": "Married",
+      "widowed": "Widowed"
+    },
+
+    "vehicle-header": "Add Cars",
+    "vehicle-subheader": "Choose any vehicle that you want to be covered on your policy.",
+    "vehicle-driver-info": "Currently only 1 driver and vehicle per policy is available online. You can call us to add additional drivers and policies at anytime at 1-844-544-5667.",
+    "vehicles-header": "Vehicles",
+    "no-vehicle-error": "We didn't find any vehicles for you in our system. Select 'Add Vehicle' below to do so manually.",
+    "drivers-header": "Drivers",
+    "no-driver-error": "We didn't find any drivers for you in our system. Select 'Add Driver' below to do so manually.",
+    "add-driver": "Add Driver",
+    "avg-per-month": "avg. per month",
+    "avg-month": "/ avg. month",
+    "date-error-before": "Date cannot be before",
+    "date-error-after": "Date cannot be after",
+
+    "please-recalculate": "Please recalculate your rate.",
+    "default-quote": "Go back to default quote",
+
+    "marital-status.single": "Single",
+    "vehicle-selection": {
+      "more-info-title": "Tell us more about your %{vehicle}.",
+      "primary-insured": "Primary Insured",
+      "additional-driver": "Additional Driver",
+      "add-vehicle": "Add Vehicle",
+      "add-new-vehicle": "Add New Vehicle",
+      "vehicle-info-title": "Tell us about your car",
+      "make": "Make",
+      "model": "Model",
+      "year": "Year",
+      "vin-title": "What's the VIN #?",
+      "vin-sub-title": "Find your VIN below the driver's side windshield",
+      "vin-hint": "VIN",
+      "vin-check": "Is %{lastFourDigits} the last four digits of your VIN?",
+      "ownership-title": "Do you Finance, Lease, or Own?",
+      "business-use-title": "Is this car used for business purposes?",
+      "business-use-sub-title": "Commercial use, like making deliveries, visiting clients, etc.—not just commuting to-and-from work.",
+      "ridesharing-title": "Do you use it for ridesharing?",
+      "ridesharing-sub-title": "Such as driving for a company like Lyft or Uber.",
+      "milage-title": "How many miles do you drive a year?",
+      "milage-sub-title": "Give us your best guess",
+      "commuting-title": "Do you commute with this car?",
+      "commuting-sub-title": "Choose yes if you drive to work or school at least once a week",
+      "finish": "Finish"
+    },
+    "driver-selection": {
+      "more-info-title": "Tell us more about %{name}...",
+      "title": "Add drivers",
+      "subtitle": "Add anyone who will drive your car so everybody’s covered. This includes your spouse, kids, caretakers, etc. ",
+      "add-driver": "Add New Driver",
+      "loading-text": "hold tight we're filling out some paperwork...",
+      "excluded-driver-title": "Driver Excluded from Policy",
+      "excluded-driver-subtitle": "Looks like we can’t add this driver to your policy right now because of an invalid driver’s license ",
+      "name-title": "What’s their legal name?",
+      "name-sub-title": "(Just like it is on their driver's license)",
+      "address-title": "Do you and %{name} live together?",
+      "address-entry-title": "What is their home address?",
+      "address-entry-sub-title": "Please put in the address manually. We couldn't find it!",
+      "birthday-title": "When's their birthday?",
+      "license-title": "What’s their driver’s license number?",
+      "license-sub-title": "We’ll use this to verify their driving record.",
+      "license-status-title": "What's their Driver's License Status?",
+      "license-status-sub-title": "We’ll use this to verify their driving record.",
+      "marital-status-title": "What's their marital status?",
+      "relationship-title": "What's your relationship with %{driverFirstName}?",
+      "added": "Added"
+    },
+    "relationships": {
+      "spouse": "Spouse",
+      "parent": "Parent",
+      "child": "Child",
+      "sibling": "Brother/Sister",
+      "other-relative": "Other Relative",
+      "other": "Other"
+    },
+    "add-driver-flow": {
+      "name-title": "Please enter the driver's name.",
+      "address-title": "What's their home address?",
+      "address-input-title": "The address should match the driver's license information."
+    },
+    "add-vehicle-flow": {
+      "vin-title": "Please enter your Vehicle's VIN Number.",
+      "vin-hint": "VIN Number*"
+    },
+    "plan-info": {
+      "quote-title": "%{name}, here's your quote",
+      "coverage-starts": "Your coverage starts",
+      "fee-info": "A $60 policy fee will be added at checkout.",
+      "activate": "Activate Policy",
+      "activate-amount": "Activate (%{amount})",
+      "recalculate": "Recalculate Rate",
+      "monthly-title": "Monthly",
+      "monthly-sub-title": "billed monthly",
+      "semi-annual-title": "Semi-annual",
+      "semi-annual-sub-title": "billed every 6 months",
+      "savings-unlocked": "You unlocked %{savings} in savings",
+      "customization-title": "And now, the finishing touches..."
+    },
+    "cost-summary": {
+      "cost-summary": "Cost Summary",
+      "auto-coverage": "Auto Coverage",
+      "six-month": "6 month premium",
+      "policy-start": "Policy start date",
+      "continue": "Continue to Payment Plan",
+      "recalculate": "Recalculate my rate",
+      "summary": "Summary",
+      "close-summary": "Close Summary"
+    },
+    "coverages": {
+      "30/60": "$30k per person / $60k per accident",
+      "50/100": "$50k per person / $100k per accident",
+      "100/300": "$100k per person / $300k per accident",
+      "25": "$25,000",
+      "50": "$50,000",
+      "100": "$100,000",
+      "250": "$250",
+      "500": "$500",
+      "1000": "$1,000"
+    },
+    "rate-call": {
+      "included": "Included"
+    },
+    "policy-wide": {
+      "state-required": "State required",
+      "bodily-injury": "Bodily Injury",
+      "bodily-injury-info": "Helps pay for injuries caused by you or a covered driver if you get in a car accident.",
+      "property-damage": "Property Damage",
+      "property-damage-info": "Helps pay for damages to other people’s property when you or a covered driver cause an accident.",
+      "personal-injury": "Personal Injury Protection",
+      "personal-injury-info": "Covers you and your passengers’ medical bills. It also pays for things like lost wages and other nonmedical costs.",
+      "uninsured-motorist": "Uninsured / Underinsured Motorist Bodily Injury",
+      "uninsured-motorist-info": "Covers you and the people in your car for medical bills and related expenses if you're in an accident caused by someone who is uninsured, underinsured, or a hit-and-run.",
+      "uninsured-property": "Uninsured / Underinsured Property Damage",
+      "uninsured-property-info": "Covers damages to your car if someone hits you and is uninsured, underinsured, or a hit-and-run.",
+      "pip-toggle": {
+        "title": "Are you sure?",
+        "info": "Personal Injury Protection is a highly recommended coverage. Are you sure you want to remove it?",
+        "keep": "Keep",
+        "remove": "Remove"
+      }
+    },
+    "vehicle-coverage": {
+      "select-deductible": "Select",
+      "add-extras": "Add Extras",
+      "comprehensive": "Comprehensive Coverage",
+      "comprehensive-info": "Covers different types of losses that are usually not the result of driving the vehicle. Think stolen car, hail, an unlucky animal, or fallen trees—something other than collision.",
+      "collision": "Collision Coverage",
+      "collision-info": "Covers your car’s repair or replacement if it’s damaged in a driving accident with another vehicle or object, such as a tree or a wall. You pay the deductible, we’ll cover the rest.",
+      "rental": "Rental Reimbursement",
+      "rental-info": "Pays for you to rent a car if yours is stolen or being repaired after an accident where a claim has been filed.",
+      "roadside": "Roadside Assistance",
+      "roadside-info": "Roadside assistance helps you when your vehicle breaks down to get your car back to driving condition.",
+      "full-coverage-info": "This is required for leased/financed vehicles"
+    },
+    "coverage-modal": {
+      "injury-title": "Uninsured / Underinsured Motorist Bodily Injury",
+      "injury-info": "If selected, we‘ll match this to the Bodily Injury limit you chose.",
+      "property-title": "Uninsured / Underinsured Property Damage",
+      "property-info": "If selected, we’ll match this to the Property Damage limit you chose, along with Uninsured/ Underinsured Bodily Injury coverage.",
+      "policy-fee-title": "What’s the policy fee? ",
+      "policy-fee-info": "This fee helps us process and maintain your policy, order your driving records, and provide our members with the support they need.",
+      "personal-injury-title": "Personal Injury Protection",
+      "personal-injury-info": "When PIP is selected, Medical Payments cannot be selected."
+    },
+    "payment-plan": {
+      "six-month-policy": "6 Month Policy",
+      "discount": "Discount",
+      "six-month-premium": "Your 6 month policy premium is",
+      "choose-plan": "Choose a payment plan that suits you and save!",
+      "down-payment": "Down Payment",
+      "savings": "You will save",
+      "select-plan": "Select Plan",
+      "payment-plan": "Payment Plan"
+    },
+    "vehicle-info": {
+      "ownership-title-1": "For your",
+      "ownership-title-2": ", which best applies to you?",
+      "ownership-input-title": "We need a little more information about your vehicle.",
+      "commute-title": "How many times per week do you drive to work or school?",
+      "miles-title": "How many miles do you drive per year?",
+      "miles-input-title": "It's okay to take your best guess!",
+      "not-found": "Could not find vehicle, please go back and try again.",
+      "ownership-finance": "Financing",
+      "ownership-lease": "Lease",
+      "ownership-own": "Own",
+      "commute-none": "None I'm fully remote",
+      "commute-once": "Once a week",
+      "commute-twice": "Twice a week",
+      "commute-threeplus": "3 or more times a week",
+      "full-coverage-title": "Leasing or financing? We've got you covered!",
+      "full-coverage-info": "Typically, loaned or leased vehicles require more coverage.",
+      "add-full-coverage": "Add Full Coverage",
+      "car": "car"
+    },
+    "summary": {
+      "title": "Almost finished! Review your final quote.",
+      "sub-title": "Make sure all details are accurate before proceeding.",
+      "overview": "Overview",
+      "next-payment": "Next Payment",
+      "drivers": "Drivers",
+      "vin": "VIN",
+      "next": "Next"
+    },
+    "signing-intro": {
+      "title": "LOOP uses Hellosign to sign documents",
+      "secure": "Secure",
+      "secure-subtext": "Provide the digital tools to safely access and control your policy.",
+      "private": "Private",
+      "private-subtext": "Managed hosting that keeps your information confidential"
+    },
+    "signing-complete": {
+      "title": "Wohoo! Signing Complete",
+      "sub-title": "All documents are signed and ready. Only one more step to go!"
+    },
+    "payment-entry": {
+      "title": "Make your payment",
+      "cost-summary": "Cost Summary",
+      "first-payment": "First payment",
+      "semi-annual-payment": "Semi-annual payment",
+      "due-today": "Due Today",
+      "payment-schedule": "Upcoming Payments",
+      "today": "Today",
+      "five-months": "Next 5 months",
+      "first-payment-fee": "First payment + policy fee",
+      "each-month": "Each month",
+      "semi-annual-fee": "Semi-annual payment + policy fee",
+      "policy-renewal": "Policy renewal",
+      "six-months-away": "6 months away",
+      "process-payment": "Payment Processing"
+    },
+    "stripe-checkout-form": {
+      "title": "Select a Payment Method",
+      "name": "Name",
+      "email": "Email",
+      "auto-pay-text": "By purchasing, you agree to be enrolled in autopay and your card details will be stored.",
+      "pay": "Pay (%{amount})",
+      "policy-fee": "Policy fee"
+    },
+    "payment-success": {
+      "title": "Thank you for joining LOOP!",
+      "sub-title": "Invite your loved ones to join the LOOP app.",
+      "summary": "Summary",
+      "todays-payment": "Today’s payment",
+      "upcoming-payment": "Upcoming payment",
+      "policy-details": "Policy Details",
+      "primary-insured": "Primary insured",
+      "policy-number": "Policy Number",
+      "payment-success": "Your payment was successful!"
+    },
+    "welcome": {
+      "additional-drivers-header": "Get everyone on the LOOP app!",
+      "additional-drivers-subheader": "Make sure every driver on your policy downloads and uses the app to stay insured.",
+      "invite": "Invite",
+      "invited": "Invited",
+      "welcome-title": "Welcome to LOOP! Let's get going",
+      "welcome-sub-title": "All drivers need to use the LOOP app to stay insured. Check your texts for a link to get started.",
+      "policy-number": "Your Policy Number:",
+      "download-app": "Download the LOOP app"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "need-app-title": "Do I need the LOOP App to be a Member?",
+      "need-app-info": "Yep. You’ll get instant access to all your account info, proof of insurance, Customer Care, and better driving tips. Every driver on your policy needs to download and use the app for at least 21 days a month, which allows us to provide fair and competitive rates based solely on your driving history. That said, you can absolutely turn off app tracking when you are only a passenger and not driving by going to the LOOP App.",
+      "why-app-title": "Why do I need the LOOP app?",
+      "why-app-info": "LOOP puts the power of driving in your hands by empowering you with real-time stats, insights, and suggestions on your journey. Most importantly, having the LOOP app on while driving allows to collect the data we need to give you the best possible price when your policy renews.",
+      "rate-app-title": "How does having the app affect my rate?",
+      "rate-app-info": "The app helps us factor in the kind of driving habits that can directly impact your vehicle and your overall safety. When your policy renews, we take a look at this data and adjust your premium accordingly. Are you an awesome driver who is always safe? That could mean big savings on your renewal policy's premium!"
+    },
+    "general": {
+      "policy-wide-coverages": "People & property Coverage",
+      "due-today": "Due Today",
+      "policyholder": "(Policyholder)",
+      "sample-number": "1-844-544-5667"
+    }
+  },
+  "common-actions": {
+    "hello": "HELLO BOB",
+    "cancel": "Cancel",
+    "cancelled": "Cancelled",
+    "next": "Next",
+    "done": "Done",
+    "close": "Close",
+    "add": "Add",
+    "edit": "Edit",
+    "yes": "Yes",
+    "no": "No",
+    "clear": "Clear",
+    "save": "Save",
+    "delete": "Delete",
+    "skip": "Skip",
+    "not-now": "Not now",
+    "share": "Share",
+    "report": "Report",
+    "copy-to-clipboard": "Copy to clipboard",
+    "got-it": "Got it",
+    "remove": "Remove",
+    "learn-more-button": "Learn more",
+    "view-all": "View all",
+    "apply": "Apply",
+    "reset": "Reset",
+    "try-again": "Try again",
+    "retry": "Retry",
+    "how-it-works": "How it works",
+    "view-more-items": "View more items",
+    "show-more": "Show more",
+    "show-less": "Show less",
+    "show": "Show",
+    "hide": "Hide",
+    "continue": "Continue",
+    "verify": "Verify",
+    "confirm": "Confirm",
+    "call": "Call",
+    "preview": "Preview",
+    "submit": "Submit",
+    "search-hint": "Would you like to play a game?",
+    "back": "Back",
+    "date-hint": "mm/dd/yyyy",
+    "currency": "$",
+    "toggle": "toggle",
+    "more-info": "More information",
+    "okay": "Okay",
+    "select-option": "Select an Option",
+    "lets-go": "Let's go!"
+  },
+  "server-error": {
+    "title": "Sorry, something went wrong",
+    "subtitle": "We're working on a solution and will fix this as soon as possible.",
+    "button-title": "Try again"
+  },
+  "not-found": {
+    "title": "Sorry, this page does not exist"
+  },
+  "validation": {
+    "required": "This field is required",
+    "invalid-email": "Please enter valid email",
+    "invalid-date-of-birth-month": "Invalid month",
+    "invalid-date-of-birth-day": "Invalid day",
+    "invalid-date-of-birth-16": "Minimum age is 16",
+    "invalid-date-of-birth-year": "Invalid year",
+    "invalid-name": "Please enter valid name",
+    "invalid-first-name": "Please enter valid first name",
+    "invalid-last-name": "Please enter valid last name",
+    "invalid-phonenumber": "The number you have entered is not valid",
+    "invalid-url": "Invalid website URL",
+    "invalid-zip-code": "Please enter valid zip code.",
+    "invalid-vin": "Please enter valid VIN.",
+    "invalid-ssn": "Please enter SSN.",
+    "invalid-license": "Invalid license format",
+    "numbers-only": "Only numbers are allowed.",
+    "invalid-vanity-url": "Please enter a valid url.",
+    "insecure-password": "Short passwords are insecure. Please try a longer password that combines letters, numbers, and symbols.",
+    "length-prefix": "Please enter",
+    "length-more": "characters.",
+    "length-fewer": "or fewer characters.",
+    "invalid-file-type": "File type must be .jpg|.jpeg|.png|.gif",
+    "invalid-image-ratio": "Incorrect image aspect ratio",
+    "invalid-image-size": "Invalid image size",
+    "invalid-address": "This address already exists in your portfolio.",
+    "invalid-range": "Please enter valid range",
+    "invalid-home-value": "Invalid home value",
+    "invalid-image-max-size": "Image is larger than 5 MB",
+    "invalid-image-min-size": "Image size is too small",
+    "invalid-code": "Invalid code."
+  },
+  "tab-navigator": {
+    "coverage": "Coverage",
+    "payment": "Payment"
+  },
+  "permissions": {
+    "location": {
+      "heading": "Enable location",
+      "subheading": "LOOP asks that all customers always allow location which is one way we provide the most fair insurance",
+      "always-heading": "Always Allow",
+      "always-subheading": "You’ll need to enable your location in order to\nuse LOOP.  We provide insights on your driving, helping you control your premium rating!",
+      "always-alert": "Please tap “Always Allow” on the next screen to enable location services.",
+      "always-enable-button": "Always Allow",
+      "rejected-heading": "Hey there!",
+      "rejected-subheading": "We noticed your location is turned off",
+      "rejected-step-1-title": "Enable ‘Location Always’",
+      "rejected-step-1-body": "Location ‘on’ is required and helps us give you the most fair insurance premium based on your driving",
+      "rejected-step-2-title": "Enjoy the LOOP app",
+      "rejected-step-2-body": "Once location and motion have been activated, enjoy easy access to payments, policy docs, and more!",
+      "rejected-enable-button": "Enable Location Always"
+    },
+    "motion": {
+      "heading": "Enable Motion",
+      "subheading": "You’ll need to enable your location in order to use LOOP.  We provide insights on your driving, helping you control your premium rating!",
+      "allow": "Allow motion",
+      "rejected-heading": "Almost there...",
+      "rejected-subheading": "We noticed your motion is turned off",
+      "rejected-step-1-title": "Enable Motion",
+      "rejected-step-1-body": "Motion is required and helps us give you the most fair insurance premium based on your driving",
+      "rejected-step-2-title": "Enjoy the LOOP app",
+      "rejected-step-2-body": "Once location and motion have been activated, enjoy easy access to payments, policy docs, and more!",
+      "rejected-enable-button": "Enable Motion"
+    },
+    "notification": {
+      "heading": "Enable Notifications",
+      "subheading": "Stay up to date on claims, upcoming payments, and whatever other notifications we have for you.",
+      "enable-button": "Enable Notifications",
+      "reject-button": "Maybe Later"
+    },
+    "change_always": "Change to Always Allow",
+    "location-first-step-heading": "First, select\n“Allow While Using App”",
+    "location-allow-always-heading": "Great, Now,\n“Change to Always Allow”",
+    "settings-always-title": "Set Location settings to 'Always'",
+    "settings-message": "This step allows Sample to find the best auto insurance based on your insane driving habits... Slow down Mad Max",
+    "allow-while-using": "Allow While Using",
+    "always-allow": "Allow Always",
+    "allow-once": "Allow Once",
+    "location-allow": "Allow location",
+    "dont-allow": "Don't Allow",
+    "affirm": "Enable",
+    "reject": "Later",
+    "go-to-settings": "Go to Settings",
+    "location_primer_title": "Turn on Location services",
+    "location_primer_prompt": "For the best experience, turn on location services. Turn on now?",
+    "location_primer_prompt_restriced": "To use your location, the phone administrator needs to enable location services in Settings > General > Restrictions > Location Services.",
+    "search_location_deny_title": "Are you sure?",
+    "search_location_deny_prompt": "Sample needs your location to display items nearby.",
+    "search_location_never_ask_again_title": "You Denied Location Permission",
+    "search_location_never_ask_again_prompt": "To see items nearby, Charlotte needs your location. Please turn on location access in your settings.",
+    "post_location_deny_title": "Are you sure?",
+    "post_location_deny_prompt": "Sample needs you location to post your item locally.",
+    "post_location_never_ask_again_title": "You Denied Location Permission",
+    "post_location_never_ask_again_prompt": "To post your item locally, Charlotte needs your location. Please turn on location access in your settings.",
+    "meetup_location_deny_title": "Please Enable Location Services",
+    "meetup_location_deny_prompt": "Location access is required to use this feature. Would you like to enable it now?",
+    "meetup_location_never_ask_again_title": "Please Enable Location Services",
+    "meetup_location_never_ask_again_prompt": "Location access is required to use this feature. Please turn on location access in your settings.",
+    "user_location_deny_title": "Are you sure?",
+    "user_location_deny_prompt": "Location access is required to get your current location. Would you like to enable it now?",
+    "user_location_never_ask_again_title": "You Denied Location Permission",
+    "user_location_never_ask_again_prompt": "Location access is required for us to get you the best damn rates. Please turn on location access in your settings.",
+
+    "camera_title": "Camera",
+    "camera_prompt": "Please enable access to your Camera to take photos!",
+    "photo_gallery_title": "Photos",
+    "photo_gallery_prompt": "Please enable access to your Photo Library to add photos!",
+    "photo_gallery_deny_title": "Are you sure?",
+    "photo_gallery_deny_prompt": "Sample needs to access your external storage to select a photo.",
+    "photo_gallery_never_ask_again_title": "You Denied Read External Storage Permission",
+    "photo_gallery_never_ask_again_prompt": "To select a photo, Sample needs to access your external storage.\n Please enable storage in your settings.",
+    "camera_primer_title": "Are you sure?",
+    "camera_primer_message": "Sample needs to access your camera to take a photo.",
+    "camera_deny_title": "Are you sure?",
+    "camera_deny_prompt": "Sample needs to access your camera to take a photo.",
+    "camera_never_ask_again_title": "You Denied Camera Permission",
+    "camera_never_ask_again_message": "To take a photo, Sample needs to access your camera.\n Please turn on camera in your settings.",
+    "external_storage_primer_title": "Storage",
+    "external_storage_primer_prompt": "Sample needs to access your external storage to store a photo.",
+    "external_storage_deny_title": "Are you sure?",
+    "external_storage_deny_prompt": "Sample needs to access your external storage to store a photo.",
+    "external_storage_never_ask_again_title": "You Denied Read External Storage Permission",
+    "external_storage_never_ask_again_prompt": "To take a photo, Sample needs to access your external storage.\n Please enable storage in your settings.",
+    "notification_deny_title": "Get messages faster",
+    "notification_deny_prompt": "Turn on push notifications so you know when you get messages from buyers and sellers. Enable now?",
+    "notification_primer_title": "Turn on push notification",
+    "notification_primer_prompt": "Get updates about your driving, documents and more.",
+    "notificaton_primer_subprompt": "Manage your notifications categories in Settings anytime",
+    "notification_never_ask_again_title": "Get messages faster",
+    "notification_never_ask_again_prompt": "Turn on push notifications so you know when you get messages from buyers and sellers. Enable now?",
+    "feature_unavailable_prompt": "This feature is currently not available. It may be disabled in your device's privacy settings or it may not be supported by this device."
+  },
+  "camera": {
+    "done-btn": "Done",
+    "cancel-btn": "Cancel",
+    "no-photo": "No photo",
+    "add-photo": "Add photo",
+    "take-photo": "Take Photo/Video",
+    "cover-photo": "Cover Photo",
+    "add-cover-photo-instruction": "Add your cover photo first.",
+    "take-photo-btn": "Take Photo/Video",
+    "select-photo": "Select Photo",
+    "photo-delete": "Tap Photo to Delete",
+    "tap-to-edit": "Tap photo to edit.",
+    "cover-photo-instruction": "Photos are cropped in the feed and full size on item listings.",
+    "title": "Change Photo",
+    "change-photo": "Change photo",
+    "use-photo": "Use photo",
+    "photo-selection-limit": "Using {{selectedPhotoCount}} / {{maxNumberOfPhotos}} images",
+    "photo-rearrange": "Tap and hold photo to re-arrange.",
+    "photo-upload-failed-dialog": {
+      "title": "Photos didn’t load",
+      "body": "Your photos didn’t load yet. Please try again so we can fix this issue."
+    },
+    "photo-and-title-page-title": "Post an Item",
+    "photo-and-title-page-title-abreviated": "Photo",
+    "cover-photo-warning-text": "Your cover photo will be full size on the Discover page.",
+    "details-page-title": "Details",
+    "price-page-title": "Price",
+    "delivery-page-title-shipping-allowed": "Delivery Method",
+    "delivery-page-title": "Finish",
+    "confirmation-page-title": "Posted!",
+    "posting": "Posting",
+    "saving": "Saving",
+    "post-action": "Post",
+    "save-action": "Save",
+    "discard-edits": {
+      "affirm-button": "Discard",
+      "title": "Discard edits?",
+      "body": "Do you want to discard the edits you have made to this post?"
+    },
+    "photo-selection": {
+      "action-sheet-menu": {
+        "edit": "Edit",
+        "set-as-cover-photo": "Set as cover photo",
+        "remove": "Delete",
+        "cancel": "Cancel"
+      }
+    },
+    "photo-edit": {
+      "cancel": "Cancel",
+      "rotate": "Rotate",
+      "done": "Done",
+      "reset": "Reset",
+      "error-image-load": "Couldn't load the image. Please try again."
+    }
+  },
+  "edit-item-page-title": "Edit Item",
+  "image-picker": {
+    "done-btn": "Done",
+    "cover-image-lbl": "Cover"
+  },
+  "image-picker-widget": {
+    "album-choose-modal-title": "Select album",
+    "cancel-btn": "Cancel",
+    "more-albums-btn": "Tap to see albums",
+    "camera-roll": "Camera Roll",
+    "take-photo-btn": "Take photo"
+  },
+  "camera-roll": {
+    "most-recent-album-title": "Recent Photos"
+  },
+  "agent-portal": {
+    "home": {
+      "title": "Please select where you want to go",
+      "find-quote": "Find Quote",
+      "locate-invoice": "Locate And Pay Invoice"
+    },
+    "find-quote": {
+      "title": "Enter the required fields to generate a link",
+      "policyholder-id-hint": "Policyholder ID",
+      "quote-id-hint": "Quote ID",
+      "policy-id-hint": "Policy ID",
+      "generate": "Generate",
+      "copy-link": "Copy Link"
+    },
+    "locate-invoice": {
+      "locate-invoice-title": "Enter a Policy ID to identify an Invoice",
+      "policy-id": "Policy ID",
+      "invoice-id": "Invoice ID",
+      "amount": "Amount",
+      "customer-email": "Email"
+    }
+  }
+}

@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio Button Snapshot Tests the button is not selected renders properly 1`] = `
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: row;
+  flex-wrap: undefined;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+.margin {
+  margin: undefined;
+  margin-left: 8px;
+  margin-right: undefined;
+  margin-top: undefined;
+  margin-bottom: undefined;
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  max-width: undefined;
+  width: undefined;
+}
+
+.text-textStyle {
+  color: #23231E;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: ABCSocial-Bold, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+<button
+  className="sc-kDDrLX kXedRd"
+  onClick={[MockFunction]}
+>
+  <div
+    className="flex"
+  >
+    <label>
+      <div
+        className="sc-iBkjds jxRPHA"
+      >
+        <input
+          checked={false}
+          className="sc-papXJ hTulOx"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <div
+          checked={false}
+          className="sc-jqUVSM haHvhk"
+        >
+          <div>
+            SVG
+          </div>
+        </div>
+      </div>
+    </label>
+    <div
+      className="margin"
+    >
+      <div
+        className="text-textStyle"
+      >
+        Test Text
+      </div>
+    </div>
+  </div>
+</button>
+`;
+
+exports[`Radio Button Snapshot Tests the button is selected renders properly 1`] = `
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: row;
+  flex-wrap: undefined;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+.margin {
+  margin: undefined;
+  margin-left: 8px;
+  margin-right: undefined;
+  margin-top: undefined;
+  margin-bottom: undefined;
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  max-width: undefined;
+  width: undefined;
+}
+
+.text-textStyle {
+  color: #23231E;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: ABCSocial-Bold, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+<button
+  className="sc-kDDrLX fEuRJY"
+  onClick={[MockFunction]}
+>
+  <div
+    className="flex"
+  >
+    <label>
+      <div
+        className="sc-iBkjds jxRPHA"
+      >
+        <input
+          checked={true}
+          className="sc-papXJ hTulOx"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <div
+          checked={true}
+          className="sc-jqUVSM enkiKM"
+        >
+          <div>
+            SVG
+          </div>
+        </div>
+      </div>
+    </label>
+    <div
+      className="margin"
+    >
+      <div
+        className="text-textStyle"
+      >
+        Test Text
+      </div>
+    </div>
+  </div>
+</button>
+`;

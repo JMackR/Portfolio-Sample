@@ -1,0 +1,162 @@
+{
+  "project_info": {
+    "project_number": "886839587796",
+    "firebase_url": "https://samplehouse-6e99f-default-rtdb.firebaseio.com",
+    "project_id": "samplehouse-6e99f",
+    "storage_bucket": "samplehouse-6e99f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886839587796:android:d65ee9dac926db749e1c41",
+        "android_client_info": {
+          "package_name": "com.ride.sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886839587796-3j34adppatilnnpidcai0j5p8ibldcf6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ride.sample",
+            "certificate_hash": "2ef5c380d9e0084072322794319e47847c2ad666"
+          }
+        },
+        {
+          "client_id": "886839587796-c5bhkks7hhtq6jfoqmp987qbrre8bjfv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ride.sample",
+            "certificate_hash": "2a994fb52a885d4fa8ea3c6d576b2153a320390d"
+          }
+        },
+        {
+          "client_id": "886839587796-htpakjt1cpn6pqgm34vvt1637ojqdgd9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ride.sample",
+            "certificate_hash": "8fcc8f3c28edab8bdabd0b2d0be70b34251e71c7"
+          }
+        },
+        {
+          "client_id": "886839587796-qnp0rsctlqb0outp6bjrd1egmrc4bu1h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ride.sample",
+            "certificate_hash": "af825bc465730725ed6b242078d252ae4a6aeb0c"
+          }
+        },
+        {
+          "client_id": "886839587796-t46r31q4nvid4ptfdtjm6l1o7nabccfa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ride.sample",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "886839587796-dq7rnks0757s18c9vt2ujh6eap23h7ii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5w9G2f2C8Jnkyi8AytZV-R9_ba186EiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "886839587796-dq7rnks0757s18c9vt2ujh6eap23h7ii.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "886839587796-3tb1khs6fvd9q8l0odf0okdmcil7cakn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ride.sample",
+                "app_store_id": "1613999181"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886839587796:android:72423371fbfb1d3b9e1c41",
+        "android_client_info": {
+          "package_name": "com.ride.sample.qa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886839587796-dq7rnks0757s18c9vt2ujh6eap23h7ii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5w9G2f2C8Jnkyi8AytZV-R9_ba186EiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "886839587796-dq7rnks0757s18c9vt2ujh6eap23h7ii.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "886839587796-3tb1khs6fvd9q8l0odf0okdmcil7cakn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ride.sample",
+                "app_store_id": "1613999181"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886839587796:android:e22376c4bd5b21399e1c41",
+        "android_client_info": {
+          "package_name": "com.ride.sample.uat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886839587796-dq7rnks0757s18c9vt2ujh6eap23h7ii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5w9G2f2C8Jnkyi8AytZV-R9_ba186EiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "886839587796-dq7rnks0757s18c9vt2ujh6eap23h7ii.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "886839587796-3tb1khs6fvd9q8l0odf0okdmcil7cakn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ride.sample",
+                "app_store_id": "1613999181"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

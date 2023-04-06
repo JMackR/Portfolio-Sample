@@ -1,0 +1,2978 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Snapshot Tests Error input renderer.createer.creates properly 1`] = `
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: flex-start;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+.margin {
+  margin: undefined;
+  margin-left: undefined;
+  margin-right: undefined;
+  margin-top: undefined;
+  margin-bottom: undefined;
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  max-width: undefined;
+  width: undefined;
+}
+
+.stack {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  max-width: undefined;
+  overflow: undefined;
+  min-height: undefined;
+}
+
+.border {
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  overflow: unset;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 3px;
+  border-color: #00000000;
+}
+
+.border:focus-within {
+  box-shadow: none;
+}
+
+.stack {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  max-width: undefined;
+  overflow: undefined;
+  min-height: undefined;
+}
+
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: center;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer:focus-within .inputTransform {
+  top: 0;
+  left: 14px;
+  font-size: 10px;
+  transform: translateY(0px) scale(0.8);
+  transform-origin: 0px 100%;
+}
+
+.textentry {
+  text-align: undefined;
+  color: #23231E;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  resize: none;
+  min-width: 0px;
+  min-size: 0px;
+  text-vertical-align: top;
+  height: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 30px);
+  border-radius: 4px;
+  border: none;
+  padding: 20px 16px 20px 14px;
+  outline: none;
+  box-shadow: none;
+}
+
+.textentry::placeholder {
+  color: #AAAAAF;
+}
+
+.textentry:disabled {
+  color: #AAAAAF;
+  background: #F0F0F0;
+}
+
+.inputLabel {
+  position: absolute;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transform-origin: 0px 100%;
+  transition: all 0.15s ease-out 0s;
+  top: 50%;
+  left: 14px;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+.border {
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  overflow: hidden;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #F0142D;
+}
+
+.border:focus-within {
+  box-shadow: none;
+}
+
+<div
+  className="flex"
+>
+  <div
+    className="margin"
+  >
+    <div
+      className="stack"
+    >
+      <div
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderRadius": 4,
+          }
+        }
+      >
+        <div
+          className="border"
+          onClick={[Function]}
+        >
+          <div
+            className="border"
+            onClick={[Function]}
+          >
+            <div
+              className="margin"
+            >
+              <div
+                className="stack"
+              >
+                <div
+                  className="flex"
+                >
+                  <div
+                    className="inputContainer"
+                  >
+                    <input
+                      className="textentry"
+                      data-testid="undefined.input.text-entry"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      value=""
+                    />
+                    <label
+                      className="inputLabel inputTransform"
+                    >
+                      <div
+                        className="text-textStyle"
+                      />
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input Snapshot Tests Focused input renderer.createer.creates properly 1`] = `
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: flex-start;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+.margin {
+  margin: undefined;
+  margin-left: undefined;
+  margin-right: undefined;
+  margin-top: undefined;
+  margin-bottom: undefined;
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  max-width: undefined;
+  width: undefined;
+}
+
+.stack {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  max-width: undefined;
+  overflow: undefined;
+  min-height: undefined;
+}
+
+.border {
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  overflow: unset;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 3px;
+  border-color: #00000000;
+}
+
+.border:focus-within {
+  box-shadow: none;
+}
+
+.stack {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  max-width: undefined;
+  overflow: undefined;
+  min-height: undefined;
+}
+
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: center;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer:focus-within .inputTransform {
+  top: 0;
+  left: 14px;
+  font-size: 10px;
+  transform: translateY(0px) scale(0.8);
+  transform-origin: 0px 100%;
+}
+
+.textentry {
+  text-align: undefined;
+  color: #23231E;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  resize: none;
+  min-width: 0px;
+  min-size: 0px;
+  text-vertical-align: top;
+  height: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 30px);
+  border-radius: 4px;
+  border: none;
+  padding: 20px 16px 20px 14px;
+  outline: none;
+  box-shadow: none;
+}
+
+.textentry::placeholder {
+  color: #AAAAAF;
+}
+
+.textentry:disabled {
+  color: #AAAAAF;
+  background: #F0F0F0;
+}
+
+.inputLabel {
+  position: absolute;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transform-origin: 0px 100%;
+  transition: all 0.15s ease-out 0s;
+  top: 50%;
+  left: 14px;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+.border {
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  overflow: hidden;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #23231E;
+}
+
+.border:focus-within {
+  box-shadow: none;
+}
+
+<div
+  className="flex"
+>
+  <div
+    className="margin"
+  >
+    <div
+      className="stack"
+    >
+      <div
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderRadius": 4,
+          }
+        }
+      >
+        <div
+          className="border"
+          onClick={[Function]}
+        >
+          <div
+            className="border"
+            onClick={[Function]}
+          >
+            <div
+              className="margin"
+            >
+              <div
+                className="stack"
+              >
+                <div
+                  className="flex"
+                >
+                  <div
+                    className="inputContainer"
+                  >
+                    <input
+                      className="textentry"
+                      data-testid="undefined.input.text-entry"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      value=""
+                    />
+                    <label
+                      className="inputLabel inputTransform"
+                    >
+                      <div
+                        className="text-textStyle"
+                      />
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input Snapshot Tests Input has an error that is not surpressed renderer.createer.creates properly 1`] = `
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: flex-start;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+.margin {
+  margin: undefined;
+  margin-left: undefined;
+  margin-right: undefined;
+  margin-top: undefined;
+  margin-bottom: undefined;
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  max-width: undefined;
+  width: undefined;
+}
+
+.stack {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  max-width: undefined;
+  overflow: undefined;
+  min-height: undefined;
+}
+
+.root {
+  height: 8px;
+  width: undefined;
+  display: block;
+}
+
+.border {
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  overflow: unset;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 3px;
+  border-color: #00000000;
+}
+
+.border:focus-within {
+  box-shadow: none;
+}
+
+.stack {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  max-width: undefined;
+  overflow: undefined;
+  min-height: undefined;
+}
+
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: center;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer:focus-within .inputTransform {
+  top: 0;
+  left: 14px;
+  font-size: 10px;
+  transform: translateY(0px) scale(0.8);
+  transform-origin: 0px 100%;
+}
+
+.textentry {
+  text-align: undefined;
+  color: #23231E;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  resize: none;
+  min-width: 0px;
+  min-size: 0px;
+  text-vertical-align: top;
+  height: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 30px);
+  border-radius: 4px;
+  border: none;
+  padding: 20px 16px 20px 14px;
+  outline: none;
+  box-shadow: none;
+}
+
+.textentry::placeholder {
+  color: #AAAAAF;
+}
+
+.textentry:disabled {
+  color: #AAAAAF;
+  background: #F0F0F0;
+}
+
+.inputLabel {
+  position: absolute;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transform-origin: 0px 100%;
+  transition: all 0.15s ease-out 0s;
+  top: 50%;
+  left: 14px;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+.border {
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  overflow: hidden;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #F0142D;
+}
+
+.border:focus-within {
+  box-shadow: none;
+}
+
+.stack {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  max-width: undefined;
+  overflow: undefined;
+  min-height: undefined;
+}
+
+.root {
+  height: undefined;
+  width: 8px;
+  display: inline-block;
+}
+
+.text-textStyle {
+  color: #F0142D;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: ABCSocial-Bold, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+<div
+  className="flex"
+>
+  <div
+    className="margin"
+  >
+    <div
+      className="stack"
+    >
+      <div
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderRadius": 4,
+          }
+        }
+      >
+        <div
+          className="border"
+          onClick={[Function]}
+        >
+          <div
+            className="border"
+            onClick={[Function]}
+          >
+            <div
+              className="margin"
+            >
+              <div
+                className="stack"
+              >
+                <div
+                  className="flex"
+                >
+                  <div
+                    className="inputContainer"
+                  >
+                    <input
+                      className="textentry"
+                      data-testid="undefined.input.text-entry"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      value=""
+                    />
+                    <label
+                      className="inputLabel inputTransform"
+                    >
+                      <div
+                        className="text-textStyle"
+                      />
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="root"
+      />
+      <div
+        className="stack"
+      >
+        <div>
+          SVG
+        </div>
+        <div
+          className="root"
+        />
+        <div
+          className="text-textStyle"
+        >
+          Error
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input Snapshot Tests Input that has left helper text renderer.createer.creates properly 1`] = `
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: flex-start;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+.margin {
+  margin: undefined;
+  margin-left: undefined;
+  margin-right: undefined;
+  margin-top: undefined;
+  margin-bottom: undefined;
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  max-width: undefined;
+  width: undefined;
+}
+
+.stack {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  max-width: undefined;
+  overflow: undefined;
+  min-height: undefined;
+}
+
+.root {
+  height: 8px;
+  width: undefined;
+  display: block;
+}
+
+.border {
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  overflow: unset;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 3px;
+  border-color: #00000000;
+}
+
+.border:focus-within {
+  box-shadow: none;
+}
+
+.border {
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  overflow: hidden;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #AAAAAF;
+}
+
+.border:focus-within {
+  box-shadow: none;
+}
+
+.stack {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  max-width: undefined;
+  overflow: undefined;
+  min-height: undefined;
+}
+
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: center;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer:focus-within .inputTransform {
+  top: 0;
+  left: 14px;
+  font-size: 10px;
+  transform: translateY(0px) scale(0.8);
+  transform-origin: 0px 100%;
+}
+
+.textentry {
+  text-align: undefined;
+  color: #23231E;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  resize: none;
+  min-width: 0px;
+  min-size: 0px;
+  text-vertical-align: top;
+  height: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 30px);
+  border-radius: 4px;
+  border: none;
+  padding: 20px 16px 20px 14px;
+  outline: none;
+  box-shadow: none;
+}
+
+.textentry::placeholder {
+  color: #AAAAAF;
+}
+
+.textentry:disabled {
+  color: #AAAAAF;
+  background: #F0F0F0;
+}
+
+.inputLabel {
+  position: absolute;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transform-origin: 0px 100%;
+  transition: all 0.15s ease-out 0s;
+  top: 50%;
+  left: 14px;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+.stack {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  max-width: undefined;
+  overflow: undefined;
+  min-height: undefined;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: ABCSocial-Bold, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+<div
+  className="flex"
+>
+  <div
+    className="margin"
+  >
+    <div
+      className="stack"
+    >
+      <div
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderRadius": 4,
+          }
+        }
+      >
+        <div
+          className="border"
+          onClick={[Function]}
+        >
+          <div
+            className="border"
+            onClick={[Function]}
+          >
+            <div
+              className="margin"
+            >
+              <div
+                className="stack"
+              >
+                <div
+                  className="flex"
+                >
+                  <div
+                    className="inputContainer"
+                  >
+                    <input
+                      className="textentry"
+                      data-testid="undefined.input.text-entry"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      value=""
+                    />
+                    <label
+                      className="inputLabel inputTransform"
+                    >
+                      <div
+                        className="text-textStyle"
+                      />
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="root"
+      />
+      <div
+        className="stack"
+      >
+        <div
+          className="flex"
+        >
+          <div
+            className="text-textStyle"
+          >
+            Left Helper
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input Snapshot Tests Input that has right helper text renderer.createer.creates properly 1`] = `
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: flex-start;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+.margin {
+  margin: undefined;
+  margin-left: undefined;
+  margin-right: undefined;
+  margin-top: undefined;
+  margin-bottom: undefined;
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  max-width: undefined;
+  width: undefined;
+}
+
+.stack {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  max-width: undefined;
+  overflow: undefined;
+  min-height: undefined;
+}
+
+.root {
+  height: 8px;
+  width: undefined;
+  display: block;
+}
+
+.border {
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  overflow: unset;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 3px;
+  border-color: #00000000;
+}
+
+.border:focus-within {
+  box-shadow: none;
+}
+
+.border {
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  overflow: hidden;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #AAAAAF;
+}
+
+.border:focus-within {
+  box-shadow: none;
+}
+
+.stack {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  max-width: undefined;
+  overflow: undefined;
+  min-height: undefined;
+}
+
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: center;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer:focus-within .inputTransform {
+  top: 0;
+  left: 14px;
+  font-size: 10px;
+  transform: translateY(0px) scale(0.8);
+  transform-origin: 0px 100%;
+}
+
+.textentry {
+  text-align: undefined;
+  color: #23231E;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  resize: none;
+  min-width: 0px;
+  min-size: 0px;
+  text-vertical-align: top;
+  height: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 30px);
+  border-radius: 4px;
+  border: none;
+  padding: 20px 16px 20px 14px;
+  outline: none;
+  box-shadow: none;
+}
+
+.textentry::placeholder {
+  color: #AAAAAF;
+}
+
+.textentry:disabled {
+  color: #AAAAAF;
+  background: #F0F0F0;
+}
+
+.inputLabel {
+  position: absolute;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transform-origin: 0px 100%;
+  transition: all 0.15s ease-out 0s;
+  top: 50%;
+  left: 14px;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+.stack {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  max-width: undefined;
+  overflow: undefined;
+  min-height: undefined;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: ABCSocial-Bold, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row-reverse;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: flex-start;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+<div
+  className="flex"
+>
+  <div
+    className="margin"
+  >
+    <div
+      className="stack"
+    >
+      <div
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderRadius": 4,
+          }
+        }
+      >
+        <div
+          className="border"
+          onClick={[Function]}
+        >
+          <div
+            className="border"
+            onClick={[Function]}
+          >
+            <div
+              className="margin"
+            >
+              <div
+                className="stack"
+              >
+                <div
+                  className="flex"
+                >
+                  <div
+                    className="inputContainer"
+                  >
+                    <input
+                      className="textentry"
+                      data-testid="undefined.input.text-entry"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      value=""
+                    />
+                    <label
+                      className="inputLabel inputTransform"
+                    >
+                      <div
+                        className="text-textStyle"
+                      />
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="root"
+      />
+      <div
+        className="stack"
+      >
+        <div
+          className="flex"
+        >
+          <div
+            className="text-textStyle"
+          >
+            Right Helper
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input Snapshot Tests Input that is loading renderer.createer.creates properly 1`] = `
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: flex-start;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+.margin {
+  margin: undefined;
+  margin-left: undefined;
+  margin-right: undefined;
+  margin-top: undefined;
+  margin-bottom: undefined;
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  max-width: undefined;
+  width: undefined;
+}
+
+.stack {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  max-width: undefined;
+  overflow: undefined;
+  min-height: undefined;
+}
+
+.border {
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  overflow: unset;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 3px;
+  border-color: #00000000;
+}
+
+.border:focus-within {
+  box-shadow: none;
+}
+
+.border {
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  overflow: hidden;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #AAAAAF;
+}
+
+.border:focus-within {
+  box-shadow: none;
+}
+
+.stack {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  max-width: undefined;
+  overflow: undefined;
+  min-height: undefined;
+}
+
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: center;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer:focus-within .inputTransform {
+  top: 0;
+  left: 14px;
+  font-size: 10px;
+  transform: translateY(0px) scale(0.8);
+  transform-origin: 0px 100%;
+}
+
+.textentry {
+  text-align: undefined;
+  color: #23231E;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  resize: none;
+  min-width: 0px;
+  min-size: 0px;
+  text-vertical-align: top;
+  height: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 30px);
+  border-radius: 4px;
+  border: none;
+  padding: 20px 16px 20px 14px;
+  outline: none;
+  box-shadow: none;
+}
+
+.textentry::placeholder {
+  color: #AAAAAF;
+}
+
+.textentry:disabled {
+  color: #AAAAAF;
+  background: #F0F0F0;
+}
+
+.inputLabel {
+  position: absolute;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transform-origin: 0px 100%;
+  transition: all 0.15s ease-out 0s;
+  top: 50%;
+  left: 14px;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+.margin {
+  margin: undefined;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: undefined;
+  margin-bottom: undefined;
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: undefined;
+  height: undefined;
+  max-width: undefined;
+  width: undefined;
+}
+
+<div
+  className="flex"
+>
+  <div
+    className="margin"
+  >
+    <div
+      className="stack"
+    >
+      <div
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderRadius": 4,
+          }
+        }
+      >
+        <div
+          className="border"
+          onClick={[Function]}
+        >
+          <div
+            className="border"
+            onClick={[Function]}
+          >
+            <div
+              className="margin"
+            >
+              <div
+                className="stack"
+              >
+                <div
+                  className="flex"
+                >
+                  <div
+                    className="inputContainer"
+                  >
+                    <input
+                      className="textentry"
+                      data-testid="undefined.input.text-entry"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      value=""
+                    />
+                    <label
+                      className="inputLabel inputTransform"
+                    >
+                      <div
+                        className="text-textStyle"
+                      />
+                    </label>
+                  </div>
+                </div>
+                <div
+                  className="margin"
+                >
+                  <div>
+                    Activity Indicator
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input Snapshot Tests Input that is not loading but has a trailing icon renderer.createer.creates properly 1`] = `
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: flex-start;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+.margin {
+  margin: undefined;
+  margin-left: undefined;
+  margin-right: undefined;
+  margin-top: undefined;
+  margin-bottom: undefined;
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  max-width: undefined;
+  width: undefined;
+}
+
+.stack {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  max-width: undefined;
+  overflow: undefined;
+  min-height: undefined;
+}
+
+.border {
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  overflow: unset;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 3px;
+  border-color: #00000000;
+}
+
+.border:focus-within {
+  box-shadow: none;
+}
+
+.border {
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  overflow: hidden;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #AAAAAF;
+}
+
+.border:focus-within {
+  box-shadow: none;
+}
+
+.stack {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  max-width: undefined;
+  overflow: undefined;
+  min-height: undefined;
+}
+
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: center;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer:focus-within .inputTransform {
+  top: 0;
+  left: 14px;
+  font-size: 10px;
+  transform: translateY(0px) scale(0.8);
+  transform-origin: 0px 100%;
+}
+
+.textentry {
+  text-align: undefined;
+  color: #23231E;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  resize: none;
+  min-width: 0px;
+  min-size: 0px;
+  text-vertical-align: top;
+  height: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 30px);
+  border-radius: 4px;
+  border: none;
+  padding: 20px 16px 20px 14px;
+  outline: none;
+  box-shadow: none;
+}
+
+.textentry::placeholder {
+  color: #AAAAAF;
+}
+
+.textentry:disabled {
+  color: #AAAAAF;
+  background: #F0F0F0;
+}
+
+.inputLabel {
+  position: absolute;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transform-origin: 0px 100%;
+  transition: all 0.15s ease-out 0s;
+  top: 50%;
+  left: 14px;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+.margin {
+  margin: undefined;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: undefined;
+  margin-bottom: undefined;
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: undefined;
+  height: undefined;
+  max-width: undefined;
+  width: undefined;
+}
+
+<div
+  className="flex"
+>
+  <div
+    className="margin"
+  >
+    <div
+      className="stack"
+    >
+      <div
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderRadius": 4,
+          }
+        }
+      >
+        <div
+          className="border"
+          onClick={[Function]}
+        >
+          <div
+            className="border"
+            onClick={[Function]}
+          >
+            <div
+              className="margin"
+            >
+              <div
+                className="stack"
+              >
+                <div
+                  className="flex"
+                >
+                  <div
+                    className="inputContainer"
+                  >
+                    <input
+                      className="textentry"
+                      data-testid="undefined.input.text-entry"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      value=""
+                    />
+                    <label
+                      className="inputLabel inputTransform"
+                    >
+                      <div
+                        className="text-textStyle"
+                      />
+                    </label>
+                  </div>
+                </div>
+                <div
+                  className="margin"
+                >
+                  <div>
+                    SVG
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input Snapshot Tests Input with leading icon renderer.createer.creates properly 1`] = `
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: flex-start;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+.margin {
+  margin: undefined;
+  margin-left: undefined;
+  margin-right: undefined;
+  margin-top: undefined;
+  margin-bottom: undefined;
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  max-width: undefined;
+  width: undefined;
+}
+
+.stack {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  max-width: undefined;
+  overflow: undefined;
+  min-height: undefined;
+}
+
+.border {
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  overflow: unset;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 3px;
+  border-color: #00000000;
+}
+
+.border:focus-within {
+  box-shadow: none;
+}
+
+.border {
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  overflow: hidden;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #AAAAAF;
+}
+
+.border:focus-within {
+  box-shadow: none;
+}
+
+.stack {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  max-width: undefined;
+  overflow: undefined;
+  min-height: undefined;
+}
+
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: center;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer:focus-within .inputTransform {
+  top: 0;
+  left: 14px;
+  font-size: 10px;
+  transform: translateY(0px) scale(0.8);
+  transform-origin: 0px 100%;
+}
+
+.textentry {
+  text-align: undefined;
+  color: #23231E;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  resize: none;
+  min-width: 0px;
+  min-size: 0px;
+  text-vertical-align: top;
+  height: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 30px);
+  border-radius: 4px;
+  border: none;
+  padding: 20px 16px 20px 14px;
+  outline: none;
+  box-shadow: none;
+}
+
+.textentry::placeholder {
+  color: #AAAAAF;
+}
+
+.textentry:disabled {
+  color: #AAAAAF;
+  background: #F0F0F0;
+}
+
+.inputLabel {
+  position: absolute;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transform-origin: 0px 100%;
+  transition: all 0.15s ease-out 0s;
+  top: 50%;
+  left: 14px;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+.margin {
+  margin: undefined;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: undefined;
+  margin-bottom: undefined;
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: undefined;
+  height: undefined;
+  max-width: undefined;
+  width: undefined;
+}
+
+<div
+  className="flex"
+>
+  <div
+    className="margin"
+  >
+    <div
+      className="stack"
+    >
+      <div
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderRadius": 4,
+          }
+        }
+      >
+        <div
+          className="border"
+          onClick={[Function]}
+        >
+          <div
+            className="border"
+            onClick={[Function]}
+          >
+            <div
+              className="margin"
+            >
+              <div
+                className="stack"
+              >
+                <div
+                  className="margin"
+                >
+                  <div>
+                    SVG
+                  </div>
+                </div>
+                <div
+                  className="flex"
+                >
+                  <div
+                    className="inputContainer"
+                  >
+                    <input
+                      className="textentry"
+                      data-testid="undefined.input.text-entry"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      value=""
+                    />
+                    <label
+                      className="inputLabel inputTransform"
+                    >
+                      <div
+                        className="text-textStyle"
+                      />
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input Snapshot Tests Input with prefix text renderer.createer.creates properly 1`] = `
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: flex-start;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+.margin {
+  margin: undefined;
+  margin-left: undefined;
+  margin-right: undefined;
+  margin-top: undefined;
+  margin-bottom: undefined;
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  max-width: undefined;
+  width: undefined;
+}
+
+.stack {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  max-width: undefined;
+  overflow: undefined;
+  min-height: undefined;
+}
+
+.border {
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  overflow: unset;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 3px;
+  border-color: #00000000;
+}
+
+.border:focus-within {
+  box-shadow: none;
+}
+
+.border {
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  overflow: hidden;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #AAAAAF;
+}
+
+.border:focus-within {
+  box-shadow: none;
+}
+
+.stack {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  max-width: undefined;
+  overflow: undefined;
+  min-height: undefined;
+}
+
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: center;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer:focus-within .inputTransform {
+  top: 0;
+  left: 14px;
+  font-size: 10px;
+  transform: translateY(0px) scale(0.8);
+  transform-origin: 0px 100%;
+}
+
+.textentry {
+  text-align: undefined;
+  color: #23231E;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  resize: none;
+  min-width: 0px;
+  min-size: 0px;
+  text-vertical-align: top;
+  height: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 30px);
+  border-radius: 4px;
+  border: none;
+  padding: 20px 16px 20px 14px;
+  outline: none;
+  box-shadow: none;
+}
+
+.textentry::placeholder {
+  color: #AAAAAF;
+}
+
+.textentry:disabled {
+  color: #AAAAAF;
+  background: #F0F0F0;
+}
+
+.inputLabel {
+  position: absolute;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transform-origin: 0px 100%;
+  transition: all 0.15s ease-out 0s;
+  top: 50%;
+  left: 14px;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+<div
+  className="flex"
+>
+  <div
+    className="margin"
+  >
+    <div
+      className="stack"
+    >
+      <div
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderRadius": 4,
+          }
+        }
+      >
+        <div
+          className="border"
+          onClick={[Function]}
+        >
+          <div
+            className="border"
+            onClick={[Function]}
+          >
+            <div
+              className="margin"
+            >
+              <div
+                className="stack"
+              >
+                <div
+                  className="text-textStyle"
+                >
+                  Prefix Text
+                </div>
+                <div
+                  className="flex"
+                >
+                  <div
+                    className="inputContainer"
+                  >
+                    <input
+                      className="textentry"
+                      data-testid="undefined.input.text-entry"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      value=""
+                    />
+                    <label
+                      className="inputLabel inputTransform"
+                    >
+                      <div
+                        className="text-textStyle"
+                      />
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input Snapshot Tests Unfocused input renderer.createer.creates properly 1`] = `
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: flex-start;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+.margin {
+  margin: undefined;
+  margin-left: undefined;
+  margin-right: undefined;
+  margin-top: undefined;
+  margin-bottom: undefined;
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  max-width: undefined;
+  width: undefined;
+}
+
+.stack {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  max-width: undefined;
+  overflow: undefined;
+  min-height: undefined;
+}
+
+.border {
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  overflow: unset;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 3px;
+  border-color: #00000000;
+}
+
+.border:focus-within {
+  box-shadow: none;
+}
+
+.border {
+  display: flex;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  overflow: hidden;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #AAAAAF;
+}
+
+.border:focus-within {
+  box-shadow: none;
+}
+
+.stack {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: undefined;
+  height: undefined;
+  width: undefined;
+  max-width: undefined;
+  overflow: undefined;
+  min-height: undefined;
+}
+
+.flex {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
+  flex-wrap: undefined;
+  align-items: stretch;
+  justify-content: center;
+  max-width: 100vw;
+  width: undefined;
+  height: undefined;
+  position: relative;
+  background-color: undefined;
+  overflow: undefined;
+}
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer:focus-within .inputTransform {
+  top: 0;
+  left: 14px;
+  font-size: 10px;
+  transform: translateY(0px) scale(0.8);
+  transform-origin: 0px 100%;
+}
+
+.textentry {
+  text-align: undefined;
+  color: #23231E;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  resize: none;
+  min-width: 0px;
+  min-size: 0px;
+  text-vertical-align: top;
+  height: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 30px);
+  border-radius: 4px;
+  border: none;
+  padding: 20px 16px 20px 14px;
+  outline: none;
+  box-shadow: none;
+}
+
+.textentry::placeholder {
+  color: #AAAAAF;
+}
+
+.textentry:disabled {
+  color: #AAAAAF;
+  background: #F0F0F0;
+}
+
+.inputLabel {
+  position: absolute;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transform-origin: 0px 100%;
+  transition: all 0.15s ease-out 0s;
+  top: 50%;
+  left: 14px;
+}
+
+.text-textStyle {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: ABCSocial-Regular, sans-serif;
+  display: inline;
+  white-space: inherit;
+  text-align: undefined;
+  text-decoration-line: undefined;
+}
+
+.text-textStyle:hover {
+  cursor: pointer;
+}
+
+<div
+  className="flex"
+>
+  <div
+    className="margin"
+  >
+    <div
+      className="stack"
+    >
+      <div
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderRadius": 4,
+          }
+        }
+      >
+        <div
+          className="border"
+          onClick={[Function]}
+        >
+          <div
+            className="border"
+            onClick={[Function]}
+          >
+            <div
+              className="margin"
+            >
+              <div
+                className="stack"
+              >
+                <div
+                  className="flex"
+                >
+                  <div
+                    className="inputContainer"
+                  >
+                    <input
+                      className="textentry"
+                      data-testid="undefined.input.text-entry"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      value=""
+                    />
+                    <label
+                      className="inputLabel inputTransform"
+                    >
+                      <div
+                        className="text-textStyle"
+                      />
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

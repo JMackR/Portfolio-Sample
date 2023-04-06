@@ -1,0 +1,17 @@
+{
+  "extends": "../../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "target": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "esnext",
+    "jsx": "react",
+    "noEmit": false,
+    "incremental": true
+    //    "paths": {
+    //      "@sample/core-lib/*": ["../../../packages/core-lib/src/*"],
+    //      "@sample/core-lib": ["../../../packages/core-lib/src/index"]
+    //    }
+  },
+  "exclude": ["**/node_modules", "**/.*/", "dist", "build"]
+}

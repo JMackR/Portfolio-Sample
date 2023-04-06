@@ -1,0 +1,11 @@
+{
+  "name": "@sample/navigation-client",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@auto/care-client": "1.0.0",
+    "@sample/comms-client": "1.0.0",
+    "@sample/utilities": "1.0.0",
+    "@sample/mobile-widgets": "1.0.0"
+  }
+}

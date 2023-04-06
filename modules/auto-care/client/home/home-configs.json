@@ -1,0 +1,38 @@
+{
+  "home-screen": [
+    {
+      "component": "insurance_card",
+      "policyStatus": "active",
+      "styles": {
+        "background": "#ECEADD",
+        "shadow": "background5",
+        "cardFooterColor": "background1"
+      }
+    },
+    {
+      "component": "manage_policy",
+      "routes": [
+        { "route": "policy-overview", "title": "manage-policy.policy-overview", "icon": "policy_overview" },
+        { "route": "documents", "title": "manage-policy.documents", "icon": "documents" },
+        { "route": "claim-stack", "title": "manage-policy.make-claim", "icon": "claim_intro" },
+        { "route": "change-policy", "title": "manage-policy.change-policy", "icon": "change_policy" }
+      ]
+    },
+    { "component": "payment_status", "subComponents": [] }
+  ],
+
+  "disabled-home": [
+    {
+      "component": "insurance_card",
+      "policyStatus": "inactive",
+      "styles": {
+        "background": "#F9F9F9",
+        "shadow": "background2",
+        "cardFooterColor": "background2"
+      }
+    },
+    {
+      "component": "cancelled_policy"
+    }
+  ]
+}

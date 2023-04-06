@@ -1,0 +1,38 @@
+# Entity
+type TypeName {
+  typeName: String!
+}
+
+extend type Query {
+  sendNotification(deviceToken: String, payload: JSONObject): NotificationRes
+}
+
+extend type Mutation {
+  mutationName(varName: Int!): TypeName
+  createEmailCollection(emailInput: CreateEmailTemplateInput!): CreateEmailTemplateResponse
+  sendEmail(sendToInput: SendToInput!): SendEmailResponse
+}
+
+extend type Subscription {
+  subscriptionName: TypeName
+}
+input SendToInput {
+  email: String
+}
+input CreateEmailTemplateInput {
+  subject: String
+  templateName: String
+  html: String
+  attachments: [Attachment]
+}
+input Attachment {
+  content: String
+  filename: String
+}
+type CreateEmailTemplateResponse {
+  success: String
+}
+
+type NotificationRes {
+  response: JSONObject
+}

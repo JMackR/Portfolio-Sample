@@ -1,0 +1,6 @@
+{
+    "extends": "@tsconfig/node16/tsconfig.json",
+    "compilerOptions": {},
+   
+    "exclude": ["node_modules","stripe-hook-1", "stripe-hook-2","uat-process-payments-1","uat-update-socotra-payments-1"]
+  }
